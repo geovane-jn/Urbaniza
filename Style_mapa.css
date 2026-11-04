@@ -440,3 +440,18 @@ main,
         height: 520px;
     }
 }
+/* O card e a busca conservam a composição original do mapa. */
+.barra-busca { flex-direction: row; align-items: center; }
+.barra-busca input { padding: 0; }
+.card-detalhe-mapa { margin-bottom: 0; }
+.card-detalhe-mapa #total-avaliacoes { font-size: .78rem; color: var(--texto-secundario); margin-top: 8px; }
+.card-detalhe-mapa .botao { padding: 8px 14px; font-size: .82rem; }
+.card-detalhe-mapa h2 { margin-bottom: 3px; }
+.card-detalhe-mapa .nota-destaque { white-space: nowrap; }
+.card-detalhe-mapa .nota-destaque:has(+ .estrelas-avaliacao[aria-label="Sem avaliações"]) { font-size: 1.15rem; }
+@media (max-width: 480px) {
+    .card-detalhe-mapa { padding: 14px; }
+    .topo-card-detalhe { gap: 6px; }
+    .topo-card-detalhe h2 { font-size: 1.1rem; }
+    .card-detalhe-mapa .tag-status { padding: 6px 8px; font-size: .65rem; }
+}
