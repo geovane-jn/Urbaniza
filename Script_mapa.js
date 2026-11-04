@@ -58,8 +58,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const encontrados = bairrosSP.filter(b => normalizar(b.nome).includes(termo))
                 .filter(b => termo || b.tipo !== 'BAIRRO' || b.id === bairroSelecionado?.id);
             camadaMarcadores.clearLayers();
-            const lista = document.getElementById('lista-regioes'); lista.replaceChildren();
-            if (!encontrados.length) lista.append(el('p', 'Nenhuma região encontrada. Tente outro nome.'));
+            if (!encontrados.length) message('Nenhuma região encontrada. Tente outro nome.');
             encontrados.forEach(bairro => {
                 const { color } = classification(bairro.notas[categoriaAtiva]);
                 const icone = el('div');
@@ -70,8 +69,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                     title: bairro.nome, alt: bairro.nome,
                     icon: L.divIcon({ className: 'marcador-bairro-wrapper', html: icone, iconSize: [100, 46], iconAnchor: [50, 14] })
                 }).addTo(camadaMarcadores).on('click', () => selecionar(bairro));
-                const botao = el('button', `${bairro.nome} · ${number(bairro.notas[categoriaAtiva])} · ${bairro.totalAvaliacoes} avaliação(ões)`);
-                botao.type = 'button'; botao.addEventListener('click', () => selecionar(bairro)); lista.append(botao);
             });
         }
         async function carregarDivisaoBairrosSP() {

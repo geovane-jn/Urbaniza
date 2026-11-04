@@ -24,7 +24,6 @@ p { line-height: 1.5; } section { margin-bottom: 22px; }
 a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid #3a75d0; outline-offset: 3px; }
 .status-sem-notas { color: #64748b; background: #eef1f5; }
 .status-ruim { color: #b42318; background: #fff0ee; }
-#lista-regioes button { text-align: left; display: block; width: 100%; }
 .card-regiao { text-decoration: none; color: inherit; }
 .card-regiao .corpo-regiao { padding: 20px; }
 .aviso-local { padding: 12px; background: #fff4ce; color: #644c00; border-radius: 12px; margin: 12px 0; }

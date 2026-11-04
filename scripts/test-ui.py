@@ -34,7 +34,27 @@ with sync_playwright() as p:
     page.locator('[name=confirmarSenha]').fill(password)
     page.get_by_role('button', name='Criar conta', exact=True).click()
     page.wait_for_url('**/inicio.html')
-    expect(page.locator('#regioes-destaque .card-regiao')).to_have_count(4)
+    expect(page.locator('#status')).to_contain_text('Ainda não há regiões avaliadas')
+    expect(page.locator('#regioes-destaque .card-regiao')).to_have_count(0)
+    bearer = {'Authorization': 'Bearer ' + page.evaluate("sessionStorage.getItem('urbaniza.token')")}
+    highlight_reviews = []
+    for region, score in [('pinheiros', 3), ('bairro-chacara-santo-antonio-santo-amaro', 5), ('moema', 1)]:
+        response = context.request.post(base + '/api/avaliacoes', headers=bearer, data={'regiaoId': region, 'seguranca': score, 'mobilidade': score, 'iluminacao': score, 'comentario': 'Teste de destaque'})
+        assert response.status == 201
+        highlight_reviews.append(response.json()['id'])
+        page.goto(base + '/inicio.html')
+        cards = page.locator('#regioes-destaque .card-regiao')
+        expect(cards).to_have_count(min(len(highlight_reviews), 2))
+        if len(highlight_reviews) == 1:
+            expect(cards.first).to_contain_text('Única região avaliada')
+        else:
+            expect(cards.first).to_contain_text('Maior média')
+            expect(cards.first).to_contain_text('Chácara Santo Antônio')
+            expect(cards.last).to_contain_text('Menor média')
+            expect(cards.last).to_contain_text('Moema' if len(highlight_reviews) == 3 else 'Pinheiros')
+    for review_id in highlight_reviews:
+        assert context.request.delete(base + '/api/avaliacoes/' + str(review_id), headers=bearer).status == 204
+    print('PASS: destaques sem avaliações, uma região e extremos de três regiões avaliadas')
     print('PASS: proteção de página, cadastro e início com dados da API')
 
     page.goto(base + '/avaliacoes.html?regiao=pinheiros')
@@ -93,7 +113,9 @@ with sync_playwright() as p:
     expect(page.locator('#zona-regiao')).to_contain_text('Santo Amaro')
     expect(page.locator('#avaliar-regiao')).to_have_attribute('href', 'avaliacoes.html?regiao=bairro-chacara-santo-antonio-santo-amaro')
     page.locator('#input-busca-regiao').fill('Moema')
-    expect(page.locator('#lista-regioes button')).to_have_count(1)
+    expect(page.locator('#lista-regioes')).to_have_count(0)
+    expect(page.get_by_role('heading', name='Regiões disponíveis', exact=True)).to_have_count(0)
+    expect(page.locator('.nome-bairro-mapa')).to_have_count(1)
     expect(page.locator('#nome-regiao')).to_have_text('Moema')
     page.get_by_role('button', name='Segurança', exact=True).click()
     expect(page.locator('#total-avaliacoes')).to_contain_text('Segurança')

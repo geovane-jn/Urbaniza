@@ -93,10 +93,17 @@
   async function home() {
     const regions = await api('/regioes');
     const grid = $('#regioes-destaque'); grid.replaceChildren();
-    regions.sort((a, b) => (b.notas.geral ?? -1) - (a.notas.geral ?? -1)).slice(0, 4).forEach(r => {
+    const rated = regions.filter(r => r.totalAvaliacoes > 0 && Number.isFinite(r.notas.geral))
+      .sort((a, b) => b.notas.geral - a.notas.geral || a.nome.localeCompare(b.nome, 'pt-BR') || a.id.localeCompare(b.id));
+    if (!rated.length) { message('Ainda não há regiões avaliadas para destacar. Faça a primeira avaliação!'); return; }
+    const highlights = rated.length === 1
+      ? [{ region: rated[0], title: 'Única região avaliada' }]
+      : [{ region: rated[0], title: 'Maior média' }, { region: rated.at(-1), title: 'Menor média' }];
+    if (rated.length === 1) message('Avalie outra região para comparar a maior e a menor média.');
+    highlights.forEach(({ region: r, title }) => {
       const card = el('a', null, 'card-regiao'); card.href = `mapa.html?regiao=${encodeURIComponent(r.id)}`;
       const body = el('div', null, 'corpo-regiao'); const status = classification(r.notas.geral);
-      body.append(el('h3', r.nome), el('p', r.zona, 'subtitulo-regiao'), el('p', `★ ${number(r.notas.geral)} · ${r.totalAvaliacoes} avaliação(ões)`), el('span', status.text, `tag-status ${status.css}`));
+      body.append(el('p', title, 'subtitulo-regiao'), el('h3', r.nome), el('p', r.zona, 'subtitulo-regiao'), el('p', `★ ${number(r.notas.geral)} · ${r.totalAvaliacoes} avaliação(ões)`), el('span', status.text, `tag-status ${status.css}`));
       card.append(body); grid.append(card);
     });
   }
