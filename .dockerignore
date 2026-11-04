@@ -1,0 +1,11 @@
+.git
+.idea
+.vscode
+*.iml
+target
+.urbaniza
+.env
+.env.*
+*.log
+*.pem
+*.key

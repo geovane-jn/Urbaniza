@@ -40,6 +40,17 @@ mvn spring-boot:run
 
 O caminho `/workspace/Urbaniza` e `scripts/setup-cloud.sh` pertencem ao ambiente Linux na nuvem, não à sua máquina Windows. O banco H2 funciona também no Windows. Guarde a pasta `.urbaniza` no seu diretório de usuário e mantenha suas permissões de acesso restritas, pois ela contém o banco e a chave JWT local.
 
+## Docker e teste no Render
+
+O `Dockerfile` compila com Maven/JDK 21 e executa o jar com JRE 21, incluindo frontend e backend na mesma imagem. O processo roda sem usuário root; `.dockerignore` exclui banco local, chave JWT, caches e arquivos `.env` do contexto de build.
+
+```bash
+docker build -t urbaniza .
+docker run --rm -p 8080:8080 -e SPRING_PROFILES_ACTIVE=dev urbaniza
+```
+
+No Render, crie um **Web Service**, conecte este repositório, escolha **Docker** e configure `SPRING_PROFILES_ACTIVE=dev` para demonstração. O aplicativo lê `PORT` automaticamente. Esse modo usa H2 em arquivo e mostra códigos de recuperação na tela: use dados fictícios. Sem disco persistente, banco e chave JWT podem ser perdidos em reinícios/redeploys. Para persistência externa, use o perfil `prod` com PostgreSQL e as variáveis descritas abaixo.
+
 ## Funcionalidades
 
 - Cadastro com nome, username exclusivo, email exclusivo e senha de 8 a 72 caracteres (limite adicional de 72 bytes UTF-8 do BCrypt).
