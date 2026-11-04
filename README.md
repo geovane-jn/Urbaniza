@@ -20,7 +20,7 @@ Para gerar e executar o aplicativo empacotado:
 java -jar target/urbaniza-1.0.0.jar
 ```
 
-O perfil padrão é `dev`. Os dados ficam em `.urbaniza/db.mv.db`, e a chave JWT de desenvolvimento é gerada em `.urbaniza/jwt.key` com permissão restrita. Os dados sobrevivem a reinícios. Essa pasta é ignorada pelo Git; não a apague para atualizar o projeto. As oito regiões iniciais são adicionadas somente se ainda não existirem. Não há usuários, senhas ou avaliações fictícias cadastrados por padrão. As regiões sem avaliações mostram **Sem notas**.
+O perfil padrão é `dev`. Os dados ficam em `.urbaniza/db.mv.db`, e a chave JWT de desenvolvimento é gerada em `.urbaniza/jwt.key` com permissão restrita. Os dados sobrevivem a reinícios. Essa pasta é ignorada pelo Git; não a apague para atualizar o projeto. O catálogo de 96 distritos e 517 nomes locais de bairros é importado automaticamente. Registros e avaliações anteriores são preservados; bairros homônimos em distritos diferentes têm IDs próprios. Não há usuários, senhas ou avaliações fictícias cadastrados por padrão. As regiões sem avaliações mostram **Sem notas**.
 
 ## Windows e IntelliJ IDEA
 
@@ -47,9 +47,9 @@ O caminho `/workspace/Urbaniza` e `scripts/setup-cloud.sh` pertencem ao ambiente
 - Perfil com o cartão, avatar e seção Suporte do frontend original. Clique no cartão para editar nome, username e localidade em um diálogo. Inclui logout com revogação de sessões e exclusão da conta mediante confirmação de senha. Email é a identidade de recuperação e não é editado nesse formulário.
 - Recuperação em três etapas: solicitar código, verificar código e definir nova senha. Código válido por dez minutos, até cinco tentativas e intervalo mínimo de um minuto entre envios. Após validar o código, o token aleatório permite uma única redefinição por até dez minutos. Alterar a senha revoga os JWTs anteriores.
 - **Modo local escolhido para este projeto:** o código de recuperação aparece na tela, com aviso explícito de que nenhum email foi enviado. Exclusivo para desenvolvimento. Não representa verificação real de posse do email.
-- Avaliações com notas de 1 a 5 em cada categoria e comentário de até mil caracteres. Uma avaliação por usuário/região; criar, listar, filtrar por região ou pelas próprias avaliações, editar e excluir. O formulário permite pesquisar as regiões cadastradas pelo nome sem diferenciar acentos. A ampliação para a lista municipal de bairros está pendente de conferência da fonte; o catálogo atual mantém as oito regiões iniciais.
+- Avaliações com notas de 1 a 5 em cada categoria e comentário de até mil caracteres. Uma avaliação por usuário/região; criar, listar, filtrar por região ou pelas próprias avaliações, editar e excluir. O formulário permite pesquisar as regiões cadastradas pelo nome sem diferenciar acentos. O catálogo inclui localidades conhecidas pelos moradores, como Chácara Santo Antônio, associada ao distrito de Santo Amaro, mas com avaliação própria. O distrito aparece nas opções para distinguir nomes iguais.
 - Médias calculadas com as avaliações persistidas; início mostra até quatro regiões ordenadas por média.
-- Mapa interativo Leaflet com o visual original: ruas OpenStreetMap, limites GeoJSON de São Paulo com destaque ao passar o mouse, marcadores nomeados, card flutuante com estrelas, busca, categorias, zoom e localização. As notas e quantidades vêm da API; não há médias fictícias. O GeoJSON original é carregado do Código Urbano, com cópia local como alternativa em falhas de conexão. As ruas exigem internet e acesso a `tile.openstreetmap.org`; os limites e avaliações continuam disponíveis sem essa camada. Geolocalização depende da permissão do navegador e de HTTPS ou localhost.
+- Mapa interativo Leaflet com o visual original: ruas OpenStreetMap, limites GeoJSON de São Paulo com destaque ao passar o mouse, marcadores nomeados, card flutuante com estrelas, busca, categorias, zoom e localização. A visão inicial mostra os distritos; pesquisar um nome também encontra os bairros locais. As notas e quantidades vêm da API; não há médias fictícias. O GeoJSON original é carregado do Código Urbano, com cópia local como alternativa em falhas de conexão. As ruas exigem internet e acesso a `tile.openstreetmap.org`; os limites e avaliações continuam disponíveis sem essa camada. Geolocalização depende da permissão do navegador e de HTTPS ou localhost.
 - Administração com listagem e consulta por username, alteração de papéis e exclusão de usuários. Administradores podem editar/excluir avaliações de outros usuários; usuários comuns só podem editar/excluir suas próprias avaliações. O último administrador não pode ser excluído nem rebaixado.
 
 ## Primeiro administrador e RBAC
@@ -167,4 +167,4 @@ Opcionalmente defina `UI_ADMIN_USERNAME` e `UI_ADMIN_PASSWORD` para incluir os f
 - `src/main/resources`: perfis de configuração sem segredos.
 - `.urbaniza/`: banco, chave JWT e cache local do Maven; ignorados pelo Git.
 
-Fontes e atribuições do mapa estão em `assets/FONTES.md`.
+Fontes, metodologia, cobertura e licença ODbL dos nomes locais estão em `assets/FONTES.md`. O número 472 é uma estimativa citada no projeto, não uma lista oficial adotada pelo aplicativo: a fonte consultada forneceu 517 localidades além dos 96 distritos.

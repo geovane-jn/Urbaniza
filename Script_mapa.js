@@ -55,7 +55,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
         function renderizarMarcadores() {
             const termo = normalizar(document.getElementById('input-busca-regiao').value.trim());
-            const encontrados = bairrosSP.filter(b => normalizar(b.nome).includes(termo));
+            const encontrados = bairrosSP.filter(b => normalizar(b.nome).includes(termo))
+                .filter(b => termo || b.tipo !== 'BAIRRO' || b.id === bairroSelecionado?.id);
             camadaMarcadores.clearLayers();
             const lista = document.getElementById('lista-regioes'); lista.replaceChildren();
             if (!encontrados.length) lista.append(el('p', 'Nenhuma região encontrada. Tente outro nome.'));
@@ -95,7 +96,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                         mouseover: e => e.target.setStyle({ weight: 2.2, fillOpacity: 0.18, color: '#068a47' }),
                         mouseout: e => e.target.setStyle(estilo),
                         click: e => {
-                            const existente = bairrosSP.find(b => normalizar(b.nome) === normalizar(nome));
+                            const existente = bairrosSP.find(b => b.tipo !== 'BAIRRO' && normalizar(b.nome) === normalizar(nome));
                             selecionar(existente || {
                                 id: '', nome, zona: 'São Paulo • SP', cadastrado: false,
                                 coords: [e.latlng.lat, e.latlng.lng], totalAvaliacoes: 0,
@@ -116,7 +117,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         }));
         document.getElementById('input-busca-regiao').addEventListener('input', e => {
             const termo = normalizar(e.target.value.trim());
-            const encontrado = bairrosSP.find(b => normalizar(b.nome).includes(termo));
+            const encontrado = bairrosSP.find(b => normalizar(b.nome) === termo && b.tipo !== 'BAIRRO')
+                || bairrosSP.find(b => normalizar(b.nome).includes(termo));
             if (encontrado && termo.length >= 3) selecionar(encontrado);
             else renderizarMarcadores();
         });

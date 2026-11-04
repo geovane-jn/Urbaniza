@@ -57,7 +57,7 @@ public class AvaliacaoService {
                     m=values.stream().mapToInt(a -> a.mobilidade).average().orElseThrow();
                     i=values.stream().mapToInt(a -> a.iluminacao).average().orElseThrow(); g=(s+m+i)/3;
                 }
-                return new RegiaoView(r.id,r.nome,r.zona,r.latitude,r.longitude,values.size(),new Notas(g,s,m,i));
+                return new RegiaoView(r.id,r.nome,r.zona,r.latitude,r.longitude,values.size(),new Notas(g,s,m,i),r.tipo,r.distritoId);
             }).toList();
     }
 }

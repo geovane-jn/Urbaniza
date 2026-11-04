@@ -1,0 +1,5519 @@
+[
+  {
+    "id": "agua-rasa",
+    "nome": "Água Rasa",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.566839,
+    "longitude": -46.571881,
+    "tipo": "DISTRITO",
+    "distritoId": "agua-rasa"
+  },
+  {
+    "id": "alto-de-pinheiros",
+    "nome": "Alto de Pinheiros",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.547613,
+    "longitude": -46.711955,
+    "tipo": "DISTRITO",
+    "distritoId": "alto-de-pinheiros"
+  },
+  {
+    "id": "anhanguera",
+    "nome": "Anhanguera",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.43088,
+    "longitude": -46.792948,
+    "tipo": "DISTRITO",
+    "distritoId": "anhanguera"
+  },
+  {
+    "id": "aricanduva",
+    "nome": "Aricanduva",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.573813,
+    "longitude": -46.515611,
+    "tipo": "DISTRITO",
+    "distritoId": "aricanduva"
+  },
+  {
+    "id": "artur-alvim",
+    "nome": "Artur Alvim",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.540146,
+    "longitude": -46.485813,
+    "tipo": "DISTRITO",
+    "distritoId": "artur-alvim"
+  },
+  {
+    "id": "bairro--guaianases",
+    "nome": "?",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.557987,
+    "longitude": -46.412715,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro--sao-lucas",
+    "nome": "?",
+    "zona": "Distrito de São Lucas • São Paulo",
+    "latitude": -23.613866,
+    "longitude": -46.523612,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-lucas"
+  },
+  {
+    "id": "bairro-aclimacao-liberdade",
+    "nome": "Aclimação",
+    "zona": "Distrito de Liberdade • São Paulo",
+    "latitude": -23.567102,
+    "longitude": -46.626801,
+    "tipo": "BAIRRO",
+    "distritoId": "liberdade"
+  },
+  {
+    "id": "bairro-agua-branca-lapa",
+    "nome": "Água Branca",
+    "zona": "Distrito de Lapa • São Paulo",
+    "latitude": -23.511752,
+    "longitude": -46.702163,
+    "tipo": "BAIRRO",
+    "distritoId": "lapa"
+  },
+  {
+    "id": "bairro-agua-fria-santana",
+    "nome": "Água Fria",
+    "zona": "Distrito de Santana • São Paulo",
+    "latitude": -23.481788,
+    "longitude": -46.62499,
+    "tipo": "BAIRRO",
+    "distritoId": "santana"
+  },
+  {
+    "id": "bairro-alto-alegre-iguatemi",
+    "nome": "Alto Alegre",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.613395,
+    "longitude": -46.431746,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-alto-da-lapa-lapa",
+    "nome": "Alto da Lapa",
+    "zona": "Distrito de Lapa • São Paulo",
+    "latitude": -23.527391,
+    "longitude": -46.713059,
+    "tipo": "BAIRRO",
+    "distritoId": "lapa"
+  },
+  {
+    "id": "bairro-alto-de-santana-santana",
+    "nome": "Alto de Santana",
+    "zona": "Distrito de Santana • São Paulo",
+    "latitude": -23.488782,
+    "longitude": -46.630052,
+    "tipo": "BAIRRO",
+    "distritoId": "santana"
+  },
+  {
+    "id": "bairro-alto-do-rivieira-jardim-angela",
+    "nome": "Alto do Rivieira",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.699503,
+    "longitude": -46.763061,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-americanopolis-cidade-ademar",
+    "nome": "Americanópolis",
+    "zona": "Distrito de Cidade Ademar • São Paulo",
+    "latitude": -23.675928,
+    "longitude": -46.649551,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-ademar"
+  },
+  {
+    "id": "bairro-bairro-da-coroa-vila-guilherme",
+    "nome": "Bairro da Coroa",
+    "zona": "Distrito de Vila Guilherme • São Paulo",
+    "latitude": -23.51905,
+    "longitude": -46.61307,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-guilherme"
+  },
+  {
+    "id": "bairro-bairro-da-luz-bom-retiro",
+    "nome": "Bairro da Luz",
+    "zona": "Distrito de Bom Retiro • São Paulo",
+    "latitude": -23.533639,
+    "longitude": -46.631961,
+    "tipo": "BAIRRO",
+    "distritoId": "bom-retiro"
+  },
+  {
+    "id": "bairro-bairro-siciliano-lapa",
+    "nome": "Bairro Siciliano",
+    "zona": "Distrito de Lapa • São Paulo",
+    "latitude": -23.534338,
+    "longitude": -46.698322,
+    "tipo": "BAIRRO",
+    "distritoId": "lapa"
+  },
+  {
+    "id": "bairro-bairro-toca-do-tatu-grajau",
+    "nome": "Bairro Toca do Tatu",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.77841,
+    "longitude": -46.661062,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-bela-alianca-vila-leopoldina",
+    "nome": "Bela Aliança",
+    "zona": "Distrito de Vila Leopoldina • São Paulo",
+    "latitude": -23.524853,
+    "longitude": -46.722515,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-leopoldina"
+  },
+  {
+    "id": "bairro-bixiga-bela-vista",
+    "nome": "Bixiga",
+    "zona": "Distrito de Bela Vista • São Paulo",
+    "latitude": -23.557709,
+    "longitude": -46.646813,
+    "tipo": "BAIRRO",
+    "distritoId": "bela-vista"
+  },
+  {
+    "id": "bairro-boacava-alto-de-pinheiros",
+    "nome": "Boaçava",
+    "zona": "Distrito de Alto de Pinheiros • São Paulo",
+    "latitude": -23.540313,
+    "longitude": -46.72261,
+    "tipo": "BAIRRO",
+    "distritoId": "alto-de-pinheiros"
+  },
+  {
+    "id": "bairro-bortolandia-tremembe",
+    "nome": "Bortolândia",
+    "zona": "Distrito de Tremembé • São Paulo",
+    "latitude": -23.454674,
+    "longitude": -46.598442,
+    "tipo": "BAIRRO",
+    "distritoId": "tremembe"
+  },
+  {
+    "id": "bairro-bosque-da-saude-cursino",
+    "nome": "Bosque da Saúde",
+    "zona": "Distrito de Cursino • São Paulo",
+    "latitude": -23.609415,
+    "longitude": -46.62517,
+    "tipo": "BAIRRO",
+    "distritoId": "cursino"
+  },
+  {
+    "id": "bairro-brooklin-novo-itaim-bibi",
+    "nome": "Brooklin Novo",
+    "zona": "Distrito de Itaim Bibi • São Paulo",
+    "latitude": -23.621487,
+    "longitude": -46.688318,
+    "tipo": "BAIRRO",
+    "distritoId": "itaim-bibi"
+  },
+  {
+    "id": "bairro-brooklin-velho-campo-belo",
+    "nome": "Brooklin Velho",
+    "zona": "Distrito de Campo Belo • São Paulo",
+    "latitude": -23.627136,
+    "longitude": -46.680106,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-belo"
+  },
+  {
+    "id": "bairro-burgo-paulista-ponte-rasa",
+    "nome": "Burgo Paulista",
+    "zona": "Distrito de Ponte Rasa • São Paulo",
+    "latitude": -23.521157,
+    "longitude": -46.485682,
+    "tipo": "BAIRRO",
+    "distritoId": "ponte-rasa"
+  },
+  {
+    "id": "bairro-buritizinho-jose-bonifacio",
+    "nome": "Buritizinho",
+    "zona": "Distrito de José Bonifácio • São Paulo",
+    "latitude": -23.583611,
+    "longitude": -46.423456,
+    "tipo": "BAIRRO",
+    "distritoId": "jose-bonifacio"
+  },
+  {
+    "id": "bairro-cabore-vila-gil-jose-bonifacio",
+    "nome": "Caboré - Vila Gil",
+    "zona": "Distrito de José Bonifácio • São Paulo",
+    "latitude": -23.592231,
+    "longitude": -46.437331,
+    "tipo": "BAIRRO",
+    "distritoId": "jose-bonifacio"
+  },
+  {
+    "id": "bairro-campinha-campo-grande",
+    "nome": "Campinha",
+    "zona": "Distrito de Campo Grande • São Paulo",
+    "latitude": -23.675365,
+    "longitude": -46.684909,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-grande"
+  },
+  {
+    "id": "bairro-campos-elisios-santa-cecilia",
+    "nome": "Campos Elísios",
+    "zona": "Distrito de Santa Cecília • São Paulo",
+    "latitude": -23.532054,
+    "longitude": -46.64774,
+    "tipo": "BAIRRO",
+    "distritoId": "santa-cecilia"
+  },
+  {
+    "id": "bairro-caninde-pari",
+    "nome": "Canindé",
+    "zona": "Distrito de Pari • São Paulo",
+    "latitude": -23.526992,
+    "longitude": -46.620526,
+    "tipo": "BAIRRO",
+    "distritoId": "pari"
+  },
+  {
+    "id": "bairro-carandiru-santana",
+    "nome": "Carandiru",
+    "zona": "Distrito de Santana • São Paulo",
+    "latitude": -23.512277,
+    "longitude": -46.625648,
+    "tipo": "BAIRRO",
+    "distritoId": "santana"
+  },
+  {
+    "id": "bairro-casa-verde-alta-casa-verde",
+    "nome": "Casa Verde Alta",
+    "zona": "Distrito de Casa Verde • São Paulo",
+    "latitude": -23.497698,
+    "longitude": -46.656576,
+    "tipo": "BAIRRO",
+    "distritoId": "casa-verde"
+  },
+  {
+    "id": "bairro-casa-verde-baixa-casa-verde",
+    "nome": "Casa Verde Baixa",
+    "zona": "Distrito de Casa Verde • São Paulo",
+    "latitude": -23.510486,
+    "longitude": -46.657105,
+    "tipo": "BAIRRO",
+    "distritoId": "casa-verde"
+  },
+  {
+    "id": "bairro-caxingui-butanta",
+    "nome": "Caxingui",
+    "zona": "Distrito de Butantã • São Paulo",
+    "latitude": -23.580447,
+    "longitude": -46.71655,
+    "tipo": "BAIRRO",
+    "distritoId": "butanta"
+  },
+  {
+    "id": "bairro-cerqueira-cesar-jardim-paulista",
+    "nome": "Cerqueira César",
+    "zona": "Distrito de Jardim Paulista • São Paulo",
+    "latitude": -23.561039,
+    "longitude": -46.665763,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-paulista"
+  },
+  {
+    "id": "bairro-chacara-cruzeiro-do-sul-cangaiba",
+    "nome": "Chacara Cruzeiro do Sul",
+    "zona": "Distrito de Cangaíba • São Paulo",
+    "latitude": -23.510775,
+    "longitude": -46.534055,
+    "tipo": "BAIRRO",
+    "distritoId": "cangaiba"
+  },
+  {
+    "id": "bairro-chacara-do-sol-grajau",
+    "nome": "Chácara do Sol",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.778937,
+    "longitude": -46.67546,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-chacara-dona-olivia-itai-53c8e88e",
+    "nome": "Chácara Dona Olivia",
+    "zona": "Distrito de Itaim Paulista • São Paulo",
+    "latitude": -23.513248,
+    "longitude": -46.388288,
+    "tipo": "BAIRRO",
+    "distritoId": "itaim-paulista"
+  },
+  {
+    "id": "bairro-chacara-everest-raposo-tavares",
+    "nome": "Chácara Everest",
+    "zona": "Distrito de Raposo Tavares • São Paulo",
+    "latitude": -23.59524,
+    "longitude": -46.807071,
+    "tipo": "BAIRRO",
+    "distritoId": "raposo-tavares"
+  },
+  {
+    "id": "bairro-chacara-flora-santo-amaro",
+    "nome": "Chácara Flora",
+    "zona": "Distrito de Santo Amaro • São Paulo",
+    "latitude": -23.646765,
+    "longitude": -46.685436,
+    "tipo": "BAIRRO",
+    "distritoId": "santo-amaro"
+  },
+  {
+    "id": "bairro-chacara-inglesa-saude",
+    "nome": "Chácara Inglesa",
+    "zona": "Distrito de Saúde • São Paulo",
+    "latitude": -23.608307,
+    "longitude": -46.63232,
+    "tipo": "BAIRRO",
+    "distritoId": "saude"
+  },
+  {
+    "id": "bairro-chacara-jaragua-anhanguera",
+    "nome": "Chácara Jaraguá",
+    "zona": "Distrito de Anhanguera • São Paulo",
+    "latitude": -23.438021,
+    "longitude": -46.791219,
+    "tipo": "BAIRRO",
+    "distritoId": "anhanguera"
+  },
+  {
+    "id": "bairro-chacara-monte-alegre-santo-amaro",
+    "nome": "Chácara Monte Alegre",
+    "zona": "Distrito de Santo Amaro • São Paulo",
+    "latitude": -23.644373,
+    "longitude": -46.676989,
+    "tipo": "BAIRRO",
+    "distritoId": "santo-amaro"
+  },
+  {
+    "id": "bairro-chacara-nani-jardim-angela",
+    "nome": "Chácara Nani",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.709258,
+    "longitude": -46.791693,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-chacara-santa-etelvina-c-85344897",
+    "nome": "Chácara Santa Etelvina",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.586364,
+    "longitude": -46.40533,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-chacara-santa-maria-jardim-angela",
+    "nome": "Chácara Santa Maria",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.695438,
+    "longitude": -46.793564,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-chacara-santo-antonio-santo-amaro",
+    "nome": "Chácara Santo Antônio",
+    "zona": "Distrito de Santo Amaro • São Paulo",
+    "latitude": -23.62982,
+    "longitude": -46.703875,
+    "tipo": "BAIRRO",
+    "distritoId": "santo-amaro"
+  },
+  {
+    "id": "bairro-chacara-tres-meninas-jar-0b3f0611",
+    "nome": "Chacára Três Meninas",
+    "zona": "Distrito de Jardim Helena • São Paulo",
+    "latitude": -23.474569,
+    "longitude": -46.425597,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-helena"
+  },
+  {
+    "id": "bairro-cidade-antonio-estevao-d-66e6708c",
+    "nome": "Cidade Antônio Estêvão de Carvalho",
+    "zona": "Distrito de Itaquera • São Paulo",
+    "latitude": -23.535438,
+    "longitude": -46.469928,
+    "tipo": "BAIRRO",
+    "distritoId": "itaquera"
+  },
+  {
+    "id": "bairro-cidade-domitila-jabaquara",
+    "nome": "Cidade Domitila",
+    "zona": "Distrito de Jabaquara • São Paulo",
+    "latitude": -23.662843,
+    "longitude": -46.648353,
+    "tipo": "BAIRRO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "bairro-cidade-ipava-jardim-angela",
+    "nome": "Cidade Ipava",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.724266,
+    "longitude": -46.762769,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-cidade-jardim-morumbi",
+    "nome": "Cidade Jardim",
+    "zona": "Distrito de Morumbi • São Paulo",
+    "latitude": -23.589834,
+    "longitude": -46.699024,
+    "tipo": "BAIRRO",
+    "distritoId": "morumbi"
+  },
+  {
+    "id": "bairro-cidade-leonor-jabaquara",
+    "nome": "Cidade Leonor",
+    "zona": "Distrito de Jabaquara • São Paulo",
+    "latitude": -23.64613,
+    "longitude": -46.65334,
+    "tipo": "BAIRRO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "bairro-cidade-patriarca-vila-matilde",
+    "nome": "Cidade Patriarca",
+    "zona": "Distrito de Vila Matilde • São Paulo",
+    "latitude": -23.532557,
+    "longitude": -46.504232,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-matilde"
+  },
+  {
+    "id": "bairro-cidade-popular-guaianases",
+    "nome": "Cidade Popular",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.555575,
+    "longitude": -46.403406,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro-cidade-rui-barbosa-artur-alvim",
+    "nome": "Cidade Rui Barbosa",
+    "zona": "Distrito de Artur Alvim • São Paulo",
+    "latitude": -23.538271,
+    "longitude": -46.484378,
+    "tipo": "BAIRRO",
+    "distritoId": "artur-alvim"
+  },
+  {
+    "id": "bairro-cidade-satelite-santa-ba-6ebba700",
+    "nome": "Cidade Satélite Santa Bárbara",
+    "zona": "Distrito de São Mateus • São Paulo",
+    "latitude": -23.611232,
+    "longitude": -46.464024,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-mateus"
+  },
+  {
+    "id": "bairro-cidade-vargas-jabaquara",
+    "nome": "Cidade Vargas",
+    "zona": "Distrito de Jabaquara • São Paulo",
+    "latitude": -23.646395,
+    "longitude": -46.636193,
+    "tipo": "BAIRRO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "bairro-city-america-sao-domingos",
+    "nome": "City América",
+    "zona": "Distrito de São Domingos • São Paulo",
+    "latitude": -23.499422,
+    "longitude": -46.733407,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-domingos"
+  },
+  {
+    "id": "bairro-city-jaragua-jaragua",
+    "nome": "City Jaraguá",
+    "zona": "Distrito de Jaraguá • São Paulo",
+    "latitude": -23.438579,
+    "longitude": -46.734307,
+    "tipo": "BAIRRO",
+    "distritoId": "jaragua"
+  },
+  {
+    "id": "bairro-city-pinheirinho-pirituba",
+    "nome": "City Pinheirinho",
+    "zona": "Distrito de Pirituba • São Paulo",
+    "latitude": -23.482282,
+    "longitude": -46.735302,
+    "tipo": "BAIRRO",
+    "distritoId": "pirituba"
+  },
+  {
+    "id": "bairro-cohab-2-jose-bonifacio",
+    "nome": "COHAB 2",
+    "zona": "Distrito de José Bonifácio • São Paulo",
+    "latitude": -23.543655,
+    "longitude": -46.435268,
+    "tipo": "BAIRRO",
+    "distritoId": "jose-bonifacio"
+  },
+  {
+    "id": "bairro-cohab-bancarios-cidade-tiradentes",
+    "nome": "COHAB Bancários",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.601464,
+    "longitude": -46.403187,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-barro-branco-cidad-e2245b98",
+    "nome": "COHAB Barro Branco",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.584867,
+    "longitude": -46.393421,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-casinhas-cidade-tiradentes",
+    "nome": "COHAB Casinhas",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.587758,
+    "longitude": -46.400548,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-castro-alves-cidad-57fc8092",
+    "nome": "COHAB Castro Alves",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.580961,
+    "longitude": -46.404119,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-dom-angelo-cidade--4fa97937",
+    "nome": "COHAB Dom Ângelo",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.58165,
+    "longitude": -46.383066,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-fazenda-do-carmo-c-f9fc1ed1",
+    "nome": "COHAB Fazenda do Carmo",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.568182,
+    "longitude": -46.420301,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-ferroviarios-cidad-be83d552",
+    "nome": "COHAB Ferroviários",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.599717,
+    "longitude": -46.394878,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-graficos-cidade-tiradentes",
+    "nome": "COHAB Gráficos",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.609222,
+    "longitude": -46.39932,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-inacio-monteiro-ci-e05a2f9e",
+    "nome": "COHAB Inácio Monteiro",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.570208,
+    "longitude": -46.402769,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-juscelino-kubitsch-80cf65e7",
+    "nome": "COHAB Juscelino Kubitschek",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.565432,
+    "longitude": -46.39651,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro-cohab-monet-capao-redondo",
+    "nome": "Cohab Monet",
+    "zona": "Distrito de Capão Redondo • São Paulo",
+    "latitude": -23.647803,
+    "longitude": -46.789145,
+    "tipo": "BAIRRO",
+    "distritoId": "capao-redondo"
+  },
+  {
+    "id": "bairro-cohab-pedra-branca-jose-bonifacio",
+    "nome": "COHAB Pedra Branca",
+    "zona": "Distrito de José Bonifácio • São Paulo",
+    "latitude": -23.581966,
+    "longitude": -46.419004,
+    "tipo": "BAIRRO",
+    "distritoId": "jose-bonifacio"
+  },
+  {
+    "id": "bairro-cohab-prestes-maia-cidad-2c863f6e",
+    "nome": "COHAB Prestes Maia",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.568155,
+    "longitude": -46.408264,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-santa-etelvina-2a--665c71b7",
+    "nome": "COHAB Santa Etelvina 2A",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.592698,
+    "longitude": -46.411161,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-santa-etelvina-2b--87026532",
+    "nome": "COHAB Santa Etelvina 2B",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.583393,
+    "longitude": -46.413538,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-sarandi-cidade-tiradentes",
+    "nome": "COHAB Sarandi",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.576787,
+    "longitude": -46.413554,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-setor-g-cidade-tiradentes",
+    "nome": "COHAB Setor G",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.592776,
+    "longitude": -46.398596,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-sitio-casablanca-c-d47c6989",
+    "nome": "COHAB Sítio Casablanca",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.571978,
+    "longitude": -46.396779,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-sitio-conceicao-ci-e572a0fe",
+    "nome": "COHAB Sitío Conceição",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.579552,
+    "longitude": -46.39337,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-cohab-taipas-1-jaragua",
+    "nome": "Cohab Taipas 1",
+    "zona": "Distrito de Jaraguá • São Paulo",
+    "latitude": -23.443657,
+    "longitude": -46.715776,
+    "tipo": "BAIRRO",
+    "distritoId": "jaragua"
+  },
+  {
+    "id": "bairro-colonia-parelheiros",
+    "nome": "Colônia",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.849168,
+    "longitude": -46.699013,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-comunidade-corrego-jabot-94d83820",
+    "nome": "Comunidade Corrego Jaboticabal",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.642546,
+    "longitude": -46.603431,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-comunidade-jardim-das-pa-751ce45c",
+    "nome": "Comunidade Jardim das Palmas",
+    "zona": "Distrito de Vila Andrade • São Paulo",
+    "latitude": -23.620333,
+    "longitude": -46.745618,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-andrade"
+  },
+  {
+    "id": "bairro-comunidade-travinhas-vila-andrade",
+    "nome": "Comunidade Travinhas",
+    "zona": "Distrito de Vila Andrade • São Paulo",
+    "latitude": -23.627355,
+    "longitude": -46.727529,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-andrade"
+  },
+  {
+    "id": "bairro-conjunto-habitacional-br-afc1348e",
+    "nome": "Conjunto Habitacional Brigadeiro Faria Lima/BNH",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.755218,
+    "longitude": -46.683356,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-conjunto-habitacional-pa-f684f5cd",
+    "nome": "Conjunto Habitacional Padre Manoel da Nobrega",
+    "zona": "Distrito de Artur Alvim • São Paulo",
+    "latitude": -23.5454,
+    "longitude": -46.47901,
+    "tipo": "BAIRRO",
+    "distritoId": "artur-alvim"
+  },
+  {
+    "id": "bairro-conjunto-habitacional-te-0aa55eb4",
+    "nome": "Conjunto Habitacional Teotônio Vilela",
+    "zona": "Distrito de Sapopemba • São Paulo",
+    "latitude": -23.606054,
+    "longitude": -46.503656,
+    "tipo": "BAIRRO",
+    "distritoId": "sapopemba"
+  },
+  {
+    "id": "bairro-conjunto-promorar-raposo-fbd3165b",
+    "nome": "Conjunto Promorar Raposo Tavares",
+    "zona": "Distrito de Raposo Tavares • São Paulo",
+    "latitude": -23.586939,
+    "longitude": -46.79938,
+    "tipo": "BAIRRO",
+    "distritoId": "raposo-tavares"
+  },
+  {
+    "id": "bairro-conjuto-habitacional-tur-b1343354",
+    "nome": "Conjuto Habitacional Turistica",
+    "zona": "Distrito de São Domingos • São Paulo",
+    "latitude": -23.474997,
+    "longitude": -46.75669,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-domingos"
+  },
+  {
+    "id": "bairro-engenheiro-goulart-cangaiba",
+    "nome": "Engenheiro Goulart",
+    "zona": "Distrito de Cangaíba • São Paulo",
+    "latitude": -23.500449,
+    "longitude": -46.527816,
+    "tipo": "BAIRRO",
+    "distritoId": "cangaiba"
+  },
+  {
+    "id": "bairro-estrada-vitorio-trentin--24ec2fee",
+    "nome": "Estrada Vitório Trentin",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.723045,
+    "longitude": -46.797964,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-favela-ceu-atlantica-sao-domingos",
+    "nome": "Favela CEU Atlantica",
+    "zona": "Distrito de São Domingos • São Paulo",
+    "latitude": -23.481782,
+    "longitude": -46.763239,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-domingos"
+  },
+  {
+    "id": "bairro-fazenda-da-juta-sapopemba",
+    "nome": "Fazenda da Juta",
+    "zona": "Distrito de Sapopemba • São Paulo",
+    "latitude": -23.619923,
+    "longitude": -46.490279,
+    "tipo": "BAIRRO",
+    "distritoId": "sapopemba"
+  },
+  {
+    "id": "bairro-ferreira-vila-sonia",
+    "nome": "Ferreira",
+    "zona": "Distrito de Vila Sônia • São Paulo",
+    "latitude": -23.607644,
+    "longitude": -46.749733,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-sonia"
+  },
+  {
+    "id": "bairro-furnas-tremembe",
+    "nome": "Furnas",
+    "zona": "Distrito de Tremembé • São Paulo",
+    "latitude": -23.44313,
+    "longitude": -46.59357,
+    "tipo": "BAIRRO",
+    "distritoId": "tremembe"
+  },
+  {
+    "id": "bairro-gleba-do-pessego-jose-bonifacio",
+    "nome": "Gleba do Pêssego",
+    "zona": "Distrito de José Bonifácio • São Paulo",
+    "latitude": -23.571346,
+    "longitude": -46.434373,
+    "tipo": "BAIRRO",
+    "distritoId": "jose-bonifacio"
+  },
+  {
+    "id": "bairro-glicerio-se",
+    "nome": "Glicério",
+    "zona": "Distrito de Sé • São Paulo",
+    "latitude": -23.553055,
+    "longitude": -46.629008,
+    "tipo": "BAIRRO",
+    "distritoId": "se"
+  },
+  {
+    "id": "bairro-grand-reserva-paulista-pirituba",
+    "nome": "Grand Reserva Paulista",
+    "zona": "Distrito de Pirituba • São Paulo",
+    "latitude": -23.501599,
+    "longitude": -46.719634,
+    "tipo": "BAIRRO",
+    "distritoId": "pirituba"
+  },
+  {
+    "id": "bairro-granja-julieta-santo-amaro",
+    "nome": "Granja Julieta",
+    "zona": "Distrito de Santo Amaro • São Paulo",
+    "latitude": -23.635891,
+    "longitude": -46.70579,
+    "tipo": "BAIRRO",
+    "distritoId": "santo-amaro"
+  },
+  {
+    "id": "bairro-higienopolis-consolacao",
+    "nome": "Higienópolis",
+    "zona": "Distrito de Consolação • São Paulo",
+    "latitude": -23.544294,
+    "longitude": -46.65445,
+    "tipo": "BAIRRO",
+    "distritoId": "consolacao"
+  },
+  {
+    "id": "bairro-horto-florestal-tremembe",
+    "nome": "Horto Florestal",
+    "zona": "Distrito de Tremembé • São Paulo",
+    "latitude": -23.454378,
+    "longitude": -46.628738,
+    "tipo": "BAIRRO",
+    "distritoId": "tremembe"
+  },
+  {
+    "id": "bairro-iguacu-sapopemba",
+    "nome": "Iguaçu",
+    "zona": "Distrito de Sapopemba • São Paulo",
+    "latitude": -23.613081,
+    "longitude": -46.521875,
+    "tipo": "BAIRRO",
+    "distritoId": "sapopemba"
+  },
+  {
+    "id": "bairro-imirim-santana",
+    "nome": "Imirim",
+    "zona": "Distrito de Santana • São Paulo",
+    "latitude": -23.491095,
+    "longitude": -46.64706,
+    "tipo": "BAIRRO",
+    "distritoId": "santana"
+  },
+  {
+    "id": "bairro-indianopolis-moema",
+    "nome": "Indianópolis",
+    "zona": "Distrito de Moema • São Paulo",
+    "latitude": -23.607464,
+    "longitude": -46.668922,
+    "tipo": "BAIRRO",
+    "distritoId": "moema"
+  },
+  {
+    "id": "bairro-industrias-do-iguatemi-iguatemi",
+    "nome": "Indústrias do Iguatemi",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.606589,
+    "longitude": -46.409904,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-interlagos-socorro",
+    "nome": "Interlagos",
+    "zona": "Distrito de Socorro • São Paulo",
+    "latitude": -23.701167,
+    "longitude": -46.708291,
+    "tipo": "BAIRRO",
+    "distritoId": "socorro"
+  },
+  {
+    "id": "bairro-jardim-almanara-brasilandia",
+    "nome": "Jardim Almanara",
+    "zona": "Distrito de Brasilândia • São Paulo",
+    "latitude": -23.47458,
+    "longitude": -46.675034,
+    "tipo": "BAIRRO",
+    "distritoId": "brasilandia"
+  },
+  {
+    "id": "bairro-jardim-almeida-parelheiros",
+    "nome": "Jardim Almeida",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.801329,
+    "longitude": -46.728486,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-jardim-almeida-prado-grajau",
+    "nome": "Jardim Almeida Prado",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.779895,
+    "longitude": -46.689992,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-jardim-alpino-cidade-dutra",
+    "nome": "Jardim Alpino",
+    "zona": "Distrito de Cidade Dutra • São Paulo",
+    "latitude": -23.74621,
+    "longitude": -46.711345,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-dutra"
+  },
+  {
+    "id": "bairro-jardim-alvorada-capao-redondo",
+    "nome": "Jardim Alvorada",
+    "zona": "Distrito de Capão Redondo • São Paulo",
+    "latitude": -23.664217,
+    "longitude": -46.784062,
+    "tipo": "BAIRRO",
+    "distritoId": "capao-redondo"
+  },
+  {
+    "id": "bairro-jardim-amaralina-raposo-tavares",
+    "nome": "Jardim Amaralina",
+    "zona": "Distrito de Raposo Tavares • São Paulo",
+    "latitude": -23.603782,
+    "longitude": -46.799311,
+    "tipo": "BAIRRO",
+    "distritoId": "raposo-tavares"
+  },
+  {
+    "id": "bairro-jardim-amelia-capao-redondo",
+    "nome": "Jardim Amélia",
+    "zona": "Distrito de Capão Redondo • São Paulo",
+    "latitude": -23.667253,
+    "longitude": -46.7886,
+    "tipo": "BAIRRO",
+    "distritoId": "capao-redondo"
+  },
+  {
+    "id": "bairro-jardim-america-da-penha-penha",
+    "nome": "Jardim América da Penha",
+    "zona": "Distrito de Penha • São Paulo",
+    "latitude": -23.518679,
+    "longitude": -46.553276,
+    "tipo": "BAIRRO",
+    "distritoId": "penha"
+  },
+  {
+    "id": "bairro-jardim-america-jardim-paulista",
+    "nome": "Jardim América",
+    "zona": "Distrito de Jardim Paulista • São Paulo",
+    "latitude": -23.569636,
+    "longitude": -46.672012,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-paulista"
+  },
+  {
+    "id": "bairro-jardim-analia-franco-vila-formosa",
+    "nome": "Jardim Anália Franco",
+    "zona": "Distrito de Vila Formosa • São Paulo",
+    "latitude": -23.555777,
+    "longitude": -46.562261,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-formosa"
+  },
+  {
+    "id": "bairro-jardim-apura-pedreira",
+    "nome": "Jardim Apurá",
+    "zona": "Distrito de Pedreira • São Paulo",
+    "latitude": -23.712374,
+    "longitude": -46.658428,
+    "tipo": "BAIRRO",
+    "distritoId": "pedreira"
+  },
+  {
+    "id": "bairro-jardim-aracati-jardim-angela",
+    "nome": "Jardim Aracati",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.722339,
+    "longitude": -46.771921,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-jardim-arantes-iguatemi",
+    "nome": "Jardim Arantes",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.62293,
+    "longitude": -46.416946,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-jardim-arpoador-raposo-tavares",
+    "nome": "Jardim Arpoador",
+    "zona": "Distrito de Raposo Tavares • São Paulo",
+    "latitude": -23.594981,
+    "longitude": -46.791083,
+    "tipo": "BAIRRO",
+    "distritoId": "raposo-tavares"
+  },
+  {
+    "id": "bairro-jardim-assuncao-vila-matilde",
+    "nome": "Jardim Assunção",
+    "zona": "Distrito de Vila Matilde • São Paulo",
+    "latitude": -23.539311,
+    "longitude": -46.510808,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-matilde"
+  },
+  {
+    "id": "bairro-jardim-augusto-iguatemi",
+    "nome": "Jardim Augusto",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.596866,
+    "longitude": -46.4486,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-jardim-aurea-cidade-tiradentes",
+    "nome": "Jardim Áurea",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.564469,
+    "longitude": -46.417334,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-jardim-aurelia-vila-mariana",
+    "nome": "Jardim Aurélia",
+    "zona": "Distrito de Vila Mariana • São Paulo",
+    "latitude": -23.595943,
+    "longitude": -46.62416,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-mariana"
+  },
+  {
+    "id": "bairro-jardim-bandeirantes-iguatemi",
+    "nome": "Jardim Bandeirantes",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.602628,
+    "longitude": -46.436151,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-jardim-boa-vista-raposo-tavares",
+    "nome": "Jardim Boa Vista",
+    "zona": "Distrito de Raposo Tavares • São Paulo",
+    "latitude": -23.58154,
+    "longitude": -46.79135,
+    "tipo": "BAIRRO",
+    "distritoId": "raposo-tavares"
+  },
+  {
+    "id": "bairro-jardim-brasil-vila-medeiros",
+    "nome": "Jardim Brasil",
+    "zona": "Distrito de Vila Medeiros • São Paulo",
+    "latitude": -23.48191,
+    "longitude": -46.576447,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-medeiros"
+  },
+  {
+    "id": "bairro-jardim-brasilia-cidade-lider",
+    "nome": "Jardim Brasília",
+    "zona": "Distrito de Cidade Líder • São Paulo",
+    "latitude": -23.554644,
+    "longitude": -46.492735,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-lider"
+  },
+  {
+    "id": "bairro-jardim-britania-anhanguera",
+    "nome": "Jardim Britânia",
+    "zona": "Distrito de Anhanguera • São Paulo",
+    "latitude": -23.434553,
+    "longitude": -46.7836,
+    "tipo": "BAIRRO",
+    "distritoId": "anhanguera"
+  },
+  {
+    "id": "bairro-jardim-caicara-jardim-angela",
+    "nome": "Jardim Caiçara",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.68477,
+    "longitude": -46.776146,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-jardim-camargo-novo-itai-b3865280",
+    "nome": "Jardim Camargo Novo",
+    "zona": "Distrito de Itaim Paulista • São Paulo",
+    "latitude": -23.504343,
+    "longitude": -46.383767,
+    "tipo": "BAIRRO",
+    "distritoId": "itaim-paulista"
+  },
+  {
+    "id": "bairro-jardim-casa-grande-parelheiros",
+    "nome": "Jardim Casa Grande",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.79647,
+    "longitude": -46.712762,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-jardim-cibele-jose-bonifacio",
+    "nome": "Jardim CIbele",
+    "zona": "Distrito de José Bonifácio • São Paulo",
+    "latitude": -23.576726,
+    "longitude": -46.439438,
+    "tipo": "BAIRRO",
+    "distritoId": "jose-bonifacio"
+  },
+  {
+    "id": "bairro-jardim-conquista-iguatemi",
+    "nome": "Jardim Conquista",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.607359,
+    "longitude": -46.448132,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-jardim-copacabana-jardim-angela",
+    "nome": "Jardim Copacabana",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.690987,
+    "longitude": -46.771601,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-jardim-cruzeiro-cidade-dutra",
+    "nome": "Jardim Cruzeiro",
+    "zona": "Distrito de Cidade Dutra • São Paulo",
+    "latitude": -23.715835,
+    "longitude": -46.710155,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-dutra"
+  },
+  {
+    "id": "bairro-jardim-d-abril-rio-pequeno",
+    "nome": "Jardim D'Abril",
+    "zona": "Distrito de Rio Pequeno • São Paulo",
+    "latitude": -23.573871,
+    "longitude": -46.779519,
+    "tipo": "BAIRRO",
+    "distritoId": "rio-pequeno"
+  },
+  {
+    "id": "bairro-jardim-da-gloria-vila-mariana",
+    "nome": "Jardim da Glória",
+    "zona": "Distrito de Vila Mariana • São Paulo",
+    "latitude": -23.58272,
+    "longitude": -46.621981,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-mariana"
+  },
+  {
+    "id": "bairro-jardim-da-saude-cursino",
+    "nome": "Jardim da Saúde",
+    "zona": "Distrito de Cursino • São Paulo",
+    "latitude": -23.617197,
+    "longitude": -46.618536,
+    "tipo": "BAIRRO",
+    "distritoId": "cursino"
+  },
+  {
+    "id": "bairro-jardim-danfer-cangaiba",
+    "nome": "Jardim Danfer",
+    "zona": "Distrito de Cangaíba • São Paulo",
+    "latitude": -23.502497,
+    "longitude": -46.506748,
+    "tipo": "BAIRRO",
+    "distritoId": "cangaiba"
+  },
+  {
+    "id": "bairro-jardim-das-flores-jardim-angela",
+    "nome": "Jardim das Flôres",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.680039,
+    "longitude": -46.763341,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-jardim-das-oliveiras-ita-90178a5e",
+    "nome": "Jardim das Oliveiras",
+    "zona": "Distrito de Itaim Paulista • São Paulo",
+    "latitude": -23.49152,
+    "longitude": -46.37982,
+    "tipo": "BAIRRO",
+    "distritoId": "itaim-paulista"
+  },
+  {
+    "id": "bairro-jardim-das-pedras-grajau",
+    "nome": "Jardim das Pedras",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.779008,
+    "longitude": -46.684756,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-jardim-das-rosas-iguatemi",
+    "nome": "Jardim das Rosas",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.603085,
+    "longitude": -46.440193,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-jardim-dom-jose-capao-redondo",
+    "nome": "Jardim Dom José",
+    "zona": "Distrito de Capão Redondo • São Paulo",
+    "latitude": -23.674905,
+    "longitude": -46.795916,
+    "tipo": "BAIRRO",
+    "distritoId": "capao-redondo"
+  },
+  {
+    "id": "bairro-jardim-dos-alamos-parelheiros",
+    "nome": "Jardim dos Álamos",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.811509,
+    "longitude": -46.737487,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-jardim-dos-cunhas-cidade-47a2cc3a",
+    "nome": "Jardim dos Cunhas",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.566307,
+    "longitude": -46.413839,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-jardim-dos-estados-santo-amaro",
+    "nome": "Jardim dos Estados",
+    "zona": "Distrito de Santo Amaro • São Paulo",
+    "latitude": -23.637198,
+    "longitude": -46.682409,
+    "tipo": "BAIRRO",
+    "distritoId": "santo-amaro"
+  },
+  {
+    "id": "bairro-jardim-dracena-raposo-tavares",
+    "nome": "Jardim Dracena",
+    "zona": "Distrito de Raposo Tavares • São Paulo",
+    "latitude": -23.592762,
+    "longitude": -46.759726,
+    "tipo": "BAIRRO",
+    "distritoId": "raposo-tavares"
+  },
+  {
+    "id": "bairro-jardim-ester-rio-pequeno",
+    "nome": "Jardim Ester",
+    "zona": "Distrito de Rio Pequeno • São Paulo",
+    "latitude": -23.58137,
+    "longitude": -46.765569,
+    "tipo": "BAIRRO",
+    "distritoId": "rio-pequeno"
+  },
+  {
+    "id": "bairro-jardim-etelvina-lajeado",
+    "nome": "Jardim Etelvina",
+    "zona": "Distrito de Lajeado • São Paulo",
+    "latitude": -23.530175,
+    "longitude": -46.419254,
+    "tipo": "BAIRRO",
+    "distritoId": "lajeado"
+  },
+  {
+    "id": "bairro-jardim-europa-pinheiros",
+    "nome": "Jardim Europa",
+    "zona": "Distrito de Pinheiros • São Paulo",
+    "latitude": -23.573705,
+    "longitude": -46.682307,
+    "tipo": "BAIRRO",
+    "distritoId": "pinheiros"
+  },
+  {
+    "id": "bairro-jardim-fontalis-tremembe",
+    "nome": "Jardim Fontalis",
+    "zona": "Distrito de Tremembé • São Paulo",
+    "latitude": -23.43583,
+    "longitude": -46.577072,
+    "tipo": "BAIRRO",
+    "distritoId": "tremembe"
+  },
+  {
+    "id": "bairro-jardim-franca-tucuruvi",
+    "nome": "Jardim França",
+    "zona": "Distrito de Tucuruvi • São Paulo",
+    "latitude": -23.477177,
+    "longitude": -46.614387,
+    "tipo": "BAIRRO",
+    "distritoId": "tucuruvi"
+  },
+  {
+    "id": "bairro-jardim-germania-capao-redondo",
+    "nome": "Jardim Germânia",
+    "zona": "Distrito de Capão Redondo • São Paulo",
+    "latitude": -23.657223,
+    "longitude": -46.759218,
+    "tipo": "BAIRRO",
+    "distritoId": "capao-redondo"
+  },
+  {
+    "id": "bairro-jardim-guapira-tremembe",
+    "nome": "Jardim Guapira",
+    "zona": "Distrito de Tremembé • São Paulo",
+    "latitude": -23.457368,
+    "longitude": -46.588722,
+    "tipo": "BAIRRO",
+    "distritoId": "tremembe"
+  },
+  {
+    "id": "bairro-jardim-guarau-raposo-tavares",
+    "nome": "Jardim Guaraú",
+    "zona": "Distrito de Raposo Tavares • São Paulo",
+    "latitude": -23.595443,
+    "longitude": -46.766646,
+    "tipo": "BAIRRO",
+    "distritoId": "raposo-tavares"
+  },
+  {
+    "id": "bairro-jardim-guaruja-jardim-angela",
+    "nome": "Jardim Guarujá",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.693728,
+    "longitude": -46.789895,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-jardim-helena-guaianases-8cb42cb7",
+    "nome": "Jardim Helena (Guaianases)",
+    "zona": "Distrito de José Bonifácio • São Paulo",
+    "latitude": -23.540258,
+    "longitude": -46.428925,
+    "tipo": "BAIRRO",
+    "distritoId": "jose-bonifacio"
+  },
+  {
+    "id": "bairro-jardim-helga-campo-limpo",
+    "nome": "Jardim Helga",
+    "zona": "Distrito de Campo Limpo • São Paulo",
+    "latitude": -23.642903,
+    "longitude": -46.774068,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-limpo"
+  },
+  {
+    "id": "bairro-jardim-herplin-parelheiros",
+    "nome": "Jardim Herplin",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.788829,
+    "longitude": -46.715368,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-jardim-horizonte-azul-ja-cd0542f9",
+    "nome": "Jardim Horizonte Azul",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.740912,
+    "longitude": -46.781745,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-jardim-iguatemi-iguatemi",
+    "nome": "Jardim Iguatemi",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.59937,
+    "longitude": -46.442348,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-jardim-imperador-sao-mateus",
+    "nome": "Jardim Imperador",
+    "zona": "Distrito de São Mateus • São Paulo",
+    "latitude": -23.586375,
+    "longitude": -46.499598,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-mateus"
+  },
+  {
+    "id": "bairro-jardim-imperador-zona-sul-sacoma",
+    "nome": "Jardim Imperador (Zona Sul)",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.643275,
+    "longitude": -46.607114,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-jardim-ipanema-cidade-lider",
+    "nome": "Jardim Ipanema",
+    "zona": "Distrito de Cidade Líder • São Paulo",
+    "latitude": -23.562339,
+    "longitude": -46.497372,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-lider"
+  },
+  {
+    "id": "bairro-jardim-ipe-vila-curuca",
+    "nome": "Jardim Ipê",
+    "zona": "Distrito de Vila Curuçá • São Paulo",
+    "latitude": -23.500215,
+    "longitude": -46.414543,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-curuca"
+  },
+  {
+    "id": "bairro-jardim-ipora-parelheiros",
+    "nome": "Jardim Iporã",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.78397,
+    "longitude": -46.71179,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-jardim-iporanga-cidade-dutra",
+    "nome": "Jardim Iporanga",
+    "zona": "Distrito de Cidade Dutra • São Paulo",
+    "latitude": -23.727104,
+    "longitude": -46.704088,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-dutra"
+  },
+  {
+    "id": "bairro-jardim-iracema-campo-limpo",
+    "nome": "Jardim Iracema",
+    "zona": "Distrito de Campo Limpo • São Paulo",
+    "latitude": -23.641924,
+    "longitude": -46.786703,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-limpo"
+  },
+  {
+    "id": "bairro-jardim-itacolomi-jabaquara",
+    "nome": "Jardim Itacolomi",
+    "zona": "Distrito de Jabaquara • São Paulo",
+    "latitude": -23.662558,
+    "longitude": -46.651945,
+    "tipo": "BAIRRO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "bairro-jardim-itajai-grajau",
+    "nome": "Jardim Itajaí",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.762854,
+    "longitude": -46.689602,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-jardim-jabaquara-jabaquara",
+    "nome": "Jardim Jabaquara",
+    "zona": "Distrito de Jabaquara • São Paulo",
+    "latitude": -23.66101,
+    "longitude": -46.658384,
+    "tipo": "BAIRRO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "bairro-jardim-japao-vila-maria",
+    "nome": "Jardim Japão",
+    "zona": "Distrito de Vila Maria • São Paulo",
+    "latitude": -23.502179,
+    "longitude": -46.580889,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-maria"
+  },
+  {
+    "id": "bairro-jardim-jaqueline-vila-sonia",
+    "nome": "Jardim Jaqueline",
+    "zona": "Distrito de Vila Sônia • São Paulo",
+    "latitude": -23.594579,
+    "longitude": -46.753659,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-sonia"
+  },
+  {
+    "id": "bairro-jardim-joao-xxiii-raposo-tavares",
+    "nome": "Jardim João XXIII",
+    "zona": "Distrito de Raposo Tavares • São Paulo",
+    "latitude": -23.602846,
+    "longitude": -46.792712,
+    "tipo": "BAIRRO",
+    "distritoId": "raposo-tavares"
+  },
+  {
+    "id": "bairro-jardim-jordanopolis-cidade-dutra",
+    "nome": "Jardim Jordanópolis",
+    "zona": "Distrito de Cidade Dutra • São Paulo",
+    "latitude": -23.73278,
+    "longitude": -46.699007,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-dutra"
+  },
+  {
+    "id": "bairro-jardim-jussara-vila-sonia",
+    "nome": "Jardim Jussara",
+    "zona": "Distrito de Vila Sônia • São Paulo",
+    "latitude": -23.59554,
+    "longitude": -46.759724,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-sonia"
+  },
+  {
+    "id": "bairro-jardim-keralux-ermelino-matarazzo",
+    "nome": "Jardim Keralux",
+    "zona": "Distrito de Ermelino Matarazzo • São Paulo",
+    "latitude": -23.482377,
+    "longitude": -46.493639,
+    "tipo": "BAIRRO",
+    "distritoId": "ermelino-matarazzo"
+  },
+  {
+    "id": "bairro-jardim-laranjeiras-iguatemi",
+    "nome": "Jardim Laranjeiras",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.603956,
+    "longitude": -46.432265,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-jardim-leonor-mendes-de--76da5368",
+    "nome": "Jardim Leonor Mendes de Barros",
+    "zona": "Distrito de Tucuruvi • São Paulo",
+    "latitude": -23.466242,
+    "longitude": -46.610631,
+    "tipo": "BAIRRO",
+    "distritoId": "tucuruvi"
+  },
+  {
+    "id": "bairro-jardim-libano-pirituba",
+    "nome": "Jardim Líbano",
+    "zona": "Distrito de Pirituba • São Paulo",
+    "latitude": -23.485661,
+    "longitude": -46.732702,
+    "tipo": "BAIRRO",
+    "distritoId": "pirituba"
+  },
+  {
+    "id": "bairro-jardim-lisboa-ponte-rasa",
+    "nome": "Jardim Lisboa",
+    "zona": "Distrito de Ponte Rasa • São Paulo",
+    "latitude": -23.51912,
+    "longitude": -46.497961,
+    "tipo": "BAIRRO",
+    "distritoId": "ponte-rasa"
+  },
+  {
+    "id": "bairro-jardim-luis-fernando-iguatemi",
+    "nome": "Jardim Luis Fernando",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.593537,
+    "longitude": -46.441127,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-jardim-maia-vila-curuca",
+    "nome": "Jardim Maia",
+    "zona": "Distrito de Vila Curuçá • São Paulo",
+    "latitude": -23.494032,
+    "longitude": -46.414036,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-curuca"
+  },
+  {
+    "id": "bairro-jardim-manaca-da-serra-p-0d74120f",
+    "nome": "Jardim Manacá da Serra",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.79596,
+    "longitude": -46.707454,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-jardim-mangalot-sao-domingos",
+    "nome": "Jardim Mangalot",
+    "zona": "Distrito de São Domingos • São Paulo",
+    "latitude": -23.491626,
+    "longitude": -46.747597,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-domingos"
+  },
+  {
+    "id": "bairro-jardim-marajoara-campo-grande",
+    "nome": "Jardim Marajoara",
+    "zona": "Distrito de Campo Grande • São Paulo",
+    "latitude": -23.655363,
+    "longitude": -46.684937,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-grande"
+  },
+  {
+    "id": "bairro-jardim-marilia-cidade-lider",
+    "nome": "Jardim Marília",
+    "zona": "Distrito de Cidade Líder • São Paulo",
+    "latitude": -23.566827,
+    "longitude": -46.496635,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-lider"
+  },
+  {
+    "id": "bairro-jardim-marilu-iguatemi",
+    "nome": "Jardim Marilú",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.598631,
+    "longitude": -46.422755,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-jardim-maristela-sao-domingos",
+    "nome": "Jardim Maristela",
+    "zona": "Distrito de São Domingos • São Paulo",
+    "latitude": -23.48846,
+    "longitude": -46.752443,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-domingos"
+  },
+  {
+    "id": "bairro-jardim-melo-cidade-ademar",
+    "nome": "Jardim Melo",
+    "zona": "Distrito de Cidade Ademar • São Paulo",
+    "latitude": -23.686542,
+    "longitude": -46.635203,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-ademar"
+  },
+  {
+    "id": "bairro-jardim-miriam-cidade-ademar",
+    "nome": "Jardim Miriam",
+    "zona": "Distrito de Cidade Ademar • São Paulo",
+    "latitude": -23.681004,
+    "longitude": -46.63966,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-ademar"
+  },
+  {
+    "id": "bairro-jardim-modelo-jacana",
+    "nome": "Jardim Modelo",
+    "zona": "Distrito de Jaçanã • São Paulo",
+    "latitude": -23.467805,
+    "longitude": -46.575681,
+    "tipo": "BAIRRO",
+    "distritoId": "jacana"
+  },
+  {
+    "id": "bairro-jardim-moraes-prado-grajau",
+    "nome": "Jardim Moraes Prado",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.773916,
+    "longitude": -46.682274,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-jardim-myrna-grajau",
+    "nome": "Jardim Myrna",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.770667,
+    "longitude": -46.693645,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-jardim-nardini-sao-domingos",
+    "nome": "Jardim Nardini",
+    "zona": "Distrito de São Domingos • São Paulo",
+    "latitude": -23.480805,
+    "longitude": -46.761287,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-domingos"
+  },
+  {
+    "id": "bairro-jardim-nordeste-artur-alvim",
+    "nome": "Jardim Nordeste",
+    "zona": "Distrito de Artur Alvim • São Paulo",
+    "latitude": -23.53014,
+    "longitude": -46.486461,
+    "tipo": "BAIRRO",
+    "distritoId": "artur-alvim"
+  },
+  {
+    "id": "bairro-jardim-noronha-grajau",
+    "nome": "Jardim Noronha",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.769688,
+    "longitude": -46.677779,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-jardim-nossa-senhora-do--736225fb",
+    "nome": "Jardim Nossa Senhora do Ó",
+    "zona": "Distrito de Freguesia do Ó • São Paulo",
+    "latitude": -23.502972,
+    "longitude": -46.70417,
+    "tipo": "BAIRRO",
+    "distritoId": "freguesia-do-o"
+  },
+  {
+    "id": "bairro-jardim-novo-parelheiros--abd67a19",
+    "nome": "Jardim Novo Parelheiros",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.821065,
+    "longitude": -46.726408,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-jardim-oriental-jabaquara",
+    "nome": "Jardim Oriental",
+    "zona": "Distrito de Jabaquara • São Paulo",
+    "latitude": -23.64485,
+    "longitude": -46.64842,
+    "tipo": "BAIRRO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "bairro-jardim-pantanal-jardim-helena",
+    "nome": "Jardim Pantanal",
+    "zona": "Distrito de Jardim Helena • São Paulo",
+    "latitude": -23.479624,
+    "longitude": -46.408989,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-helena"
+  },
+  {
+    "id": "bairro-jardim-papai-noel-parelheiros",
+    "nome": "Jardim Papai Noel",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.825472,
+    "longitude": -46.702402,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-jardim-paraiso-parelheiros",
+    "nome": "Jardim Paraíso",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.800371,
+    "longitude": -46.712205,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-jardim-parque-morumbi-vi-e8962cba",
+    "nome": "Jardim Parque Morumbi",
+    "zona": "Distrito de Vila Andrade • São Paulo",
+    "latitude": -23.623162,
+    "longitude": -46.728792,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-andrade"
+  },
+  {
+    "id": "bairro-jardim-patente-sacoma",
+    "nome": "Jardim Patente",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.627625,
+    "longitude": -46.586882,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-jardim-paulo-vi-raposo-tavares",
+    "nome": "Jardim Paulo VI",
+    "zona": "Distrito de Raposo Tavares • São Paulo",
+    "latitude": -23.599721,
+    "longitude": -46.78723,
+    "tipo": "BAIRRO",
+    "distritoId": "raposo-tavares"
+  },
+  {
+    "id": "bairro-jardim-pedro-jose-nunes--233ce37f",
+    "nome": "Jardim Pedro José Nunes",
+    "zona": "Distrito de Vila Jacuí • São Paulo",
+    "latitude": -23.501508,
+    "longitude": -46.465787,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-jacui"
+  },
+  {
+    "id": "bairro-jardim-peri-cachoeirinha",
+    "nome": "Jardim Peri",
+    "zona": "Distrito de Cachoeirinha • São Paulo",
+    "latitude": -23.45709,
+    "longitude": -46.666881,
+    "tipo": "BAIRRO",
+    "distritoId": "cachoeirinha"
+  },
+  {
+    "id": "bairro-jardim-perola-1-cidade-tiradentes",
+    "nome": "Jardim Pérola 1",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.58521,
+    "longitude": -46.385494,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-jardim-perola-2-cidade-tiradentes",
+    "nome": "Jardim Pérola 2",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.588275,
+    "longitude": -46.381586,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-jardim-petropolis-santo-amaro",
+    "nome": "Jardim Petrópolis",
+    "zona": "Distrito de Santo Amaro • São Paulo",
+    "latitude": -23.63167,
+    "longitude": -46.683913,
+    "tipo": "BAIRRO",
+    "distritoId": "santo-amaro"
+  },
+  {
+    "id": "bairro-jardim-piratininga-cangaiba",
+    "nome": "jardim piratininga",
+    "zona": "Distrito de Cangaíba • São Paulo",
+    "latitude": -23.500475,
+    "longitude": -46.534437,
+    "tipo": "BAIRRO",
+    "distritoId": "cangaiba"
+  },
+  {
+    "id": "bairro-jardim-pirituba-jaragua",
+    "nome": "Jardim Pirituba",
+    "zona": "Distrito de Jaraguá • São Paulo",
+    "latitude": -23.443081,
+    "longitude": -46.721213,
+    "tipo": "BAIRRO",
+    "distritoId": "jaragua"
+  },
+  {
+    "id": "bairro-jardim-popular-ponte-rasa",
+    "nome": "Jardim Popular",
+    "zona": "Distrito de Ponte Rasa • São Paulo",
+    "latitude": -23.516824,
+    "longitude": -46.504942,
+    "tipo": "BAIRRO",
+    "distritoId": "ponte-rasa"
+  },
+  {
+    "id": "bairro-jardim-porto-velho-grajau",
+    "nome": "Jardim Porto Velho",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.773429,
+    "longitude": -46.676229,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-jardim-premiano-iguatemi",
+    "nome": "Jardim Premiano",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.596518,
+    "longitude": -46.417516,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-jardim-presidente-cidade-dutra",
+    "nome": "Jardim Presidente",
+    "zona": "Distrito de Cidade Dutra • São Paulo",
+    "latitude": -23.730306,
+    "longitude": -46.702083,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-dutra"
+  },
+  {
+    "id": "bairro-jardim-previdencia-cursino",
+    "nome": "Jardim Previdência",
+    "zona": "Distrito de Cursino • São Paulo",
+    "latitude": -23.622585,
+    "longitude": -46.617517,
+    "tipo": "BAIRRO",
+    "distritoId": "cursino"
+  },
+  {
+    "id": "bairro-jardim-primeiro-de-maio--0b86200a",
+    "nome": "Jardim Primeiro de Maio",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.580989,
+    "longitude": -46.384998,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-jardim-prudencia-cidade-ademar",
+    "nome": "Jardim Prudência",
+    "zona": "Distrito de Cidade Ademar • São Paulo",
+    "latitude": -23.652616,
+    "longitude": -46.671775,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-ademar"
+  },
+  {
+    "id": "bairro-jardim-ranieri-jardim-angela",
+    "nome": "Jardim Ranieri",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.693591,
+    "longitude": -46.781011,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-jardim-regina-pirituba",
+    "nome": "Jardim Regina",
+    "zona": "Distrito de Pirituba • São Paulo",
+    "latitude": -23.473762,
+    "longitude": -46.742013,
+    "tipo": "BAIRRO",
+    "distritoId": "pirituba"
+  },
+  {
+    "id": "bairro-jardim-robru-vila-curuca",
+    "nome": "Jardim Robru",
+    "zona": "Distrito de Vila Curuçá • São Paulo",
+    "latitude": -23.522096,
+    "longitude": -46.412203,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-curuca"
+  },
+  {
+    "id": "bairro-jardim-romano-jardim-helena",
+    "nome": "Jardim Romano",
+    "zona": "Distrito de Jardim Helena • São Paulo",
+    "latitude": -23.480373,
+    "longitude": -46.384089,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-helena"
+  },
+  {
+    "id": "bairro-jardim-rosa-maria-raposo-tavares",
+    "nome": "Jardim Rosa Maria",
+    "zona": "Distrito de Raposo Tavares • São Paulo",
+    "latitude": -23.591825,
+    "longitude": -46.77103,
+    "tipo": "BAIRRO",
+    "distritoId": "raposo-tavares"
+  },
+  {
+    "id": "bairro-jardim-rosana-campo-limpo",
+    "nome": "Jardim Rosana",
+    "zona": "Distrito de Campo Limpo • São Paulo",
+    "latitude": -23.646451,
+    "longitude": -46.774452,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-limpo"
+  },
+  {
+    "id": "bairro-jardim-roseli-iguatemi",
+    "nome": "Jardim Roseli",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.596157,
+    "longitude": -46.440489,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-jardim-sabia-grajau",
+    "nome": "Jardim Sabiá",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.783159,
+    "longitude": -46.691138,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-jardim-santa-cruz-sacoma",
+    "nome": "Jardim Santa Cruz",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.640612,
+    "longitude": -46.597415,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-jardim-santa-fe-anhanguera",
+    "nome": "Jardim Santa Fé",
+    "zona": "Distrito de Anhanguera • São Paulo",
+    "latitude": -23.4269,
+    "longitude": -46.794711,
+    "tipo": "BAIRRO",
+    "distritoId": "anhanguera"
+  },
+  {
+    "id": "bairro-jardim-santa-fe-parelheiros",
+    "nome": "Jardim Santa Fé",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.831403,
+    "longitude": -46.71313,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-jardim-santa-monica-pirituba",
+    "nome": "Jardim Santa Mônica",
+    "zona": "Distrito de Pirituba • São Paulo",
+    "latitude": -23.476904,
+    "longitude": -46.746923,
+    "tipo": "BAIRRO",
+    "distritoId": "pirituba"
+  },
+  {
+    "id": "bairro-jardim-santa-terezinha-c-dfe45ddc",
+    "nome": "Jardim Santa Terezinha",
+    "zona": "Distrito de Cidade Líder • São Paulo",
+    "latitude": -23.569663,
+    "longitude": -46.50186,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-lider"
+  },
+  {
+    "id": "bairro-jardim-santa-terezinha-p-bfd475d2",
+    "nome": "Jardim Santa Terezinha",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.852455,
+    "longitude": -46.696326,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-jardim-santo-amaro-santo-amaro",
+    "nome": "Jardim Santo Amaro",
+    "zona": "Distrito de Santo Amaro • São Paulo",
+    "latitude": -23.652173,
+    "longitude": -46.696019,
+    "tipo": "BAIRRO",
+    "distritoId": "santo-amaro"
+  },
+  {
+    "id": "bairro-jardim-santo-antoninho-c-6f0e7175",
+    "nome": "Jardim Santo Antoninho",
+    "zona": "Distrito de Cidade Ademar • São Paulo",
+    "latitude": -23.656892,
+    "longitude": -46.666593,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-ademar"
+  },
+  {
+    "id": "bairro-jardim-santo-elias-jaguara",
+    "nome": "Jardim Santo Elias",
+    "zona": "Distrito de Jaguara • São Paulo",
+    "latitude": -23.504911,
+    "longitude": -46.758787,
+    "tipo": "BAIRRO",
+    "distritoId": "jaguara"
+  },
+  {
+    "id": "bairro-jardim-santo-elias-sao-domingos",
+    "nome": "Jardim Santo Elias",
+    "zona": "Distrito de São Domingos • São Paulo",
+    "latitude": -23.497383,
+    "longitude": -46.749181,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-domingos"
+  },
+  {
+    "id": "bairro-jardim-sao-benedito-iguatemi",
+    "nome": "Jardim São Benedito",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.593423,
+    "longitude": -46.42162,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-jardim-sao-bento-casa-verde",
+    "nome": "Jardim São Bento",
+    "zona": "Distrito de Casa Verde • São Paulo",
+    "latitude": -23.505051,
+    "longitude": -46.648747,
+    "tipo": "BAIRRO",
+    "distritoId": "casa-verde"
+  },
+  {
+    "id": "bairro-jardim-sao-bernardo-grajau",
+    "nome": "Jardim São Bernardo",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.755988,
+    "longitude": -46.70079,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-jardim-sao-carlos-guaian-4859697f",
+    "nome": "Jardim São Carlos (Guaianazes)",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.558179,
+    "longitude": -46.414057,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro-jardim-sao-carlos-vila-jacui",
+    "nome": "Jardim São Carlos",
+    "zona": "Distrito de Vila Jacuí • São Paulo",
+    "latitude": -23.51027,
+    "longitude": -46.472111,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-jacui"
+  },
+  {
+    "id": "bairro-jardim-sao-goncalo-iguatemi",
+    "nome": "Jardim São Gonçalo",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.595989,
+    "longitude": -46.456339,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-jardim-sao-joao-guaianases",
+    "nome": "Jardim São João",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.547387,
+    "longitude": -46.425033,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro-jardim-sao-jorge-raposo-tavares",
+    "nome": "Jardim São Jorge",
+    "zona": "Distrito de Raposo Tavares • São Paulo",
+    "latitude": -23.589178,
+    "longitude": -46.786294,
+    "tipo": "BAIRRO",
+    "distritoId": "raposo-tavares"
+  },
+  {
+    "id": "bairro-jardim-sao-lourenco-jardim-angela",
+    "nome": "Jardim São Lourenço",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.704201,
+    "longitude": -46.788199,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-jardim-sao-luis-zona-les-5cc6a8ea",
+    "nome": "Jardim São Luís (Zona leste)",
+    "zona": "Distrito de Itaim Paulista • São Paulo",
+    "latitude": -23.496134,
+    "longitude": -46.386285,
+    "tipo": "BAIRRO",
+    "distritoId": "itaim-paulista"
+  },
+  {
+    "id": "bairro-jardim-sao-nicolau-grajau",
+    "nome": "Jardim São Nicolau",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.827615,
+    "longitude": -46.697491,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-jardim-sao-norberto-parelheiros",
+    "nome": "Jardim São Norberto",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.818867,
+    "longitude": -46.705048,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-jardim-sao-paulo-guaianases",
+    "nome": "Jardim São Paulo",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.560624,
+    "longitude": -46.403627,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro-jardim-sao-paulo-jabaquara",
+    "nome": "Jardim São Paulo",
+    "zona": "Distrito de Jabaquara • São Paulo",
+    "latitude": -23.671397,
+    "longitude": -46.636248,
+    "tipo": "BAIRRO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "bairro-jardim-sao-paulo-lajeado",
+    "nome": "Jardim São Paulo",
+    "zona": "Distrito de Lajeado • São Paulo",
+    "latitude": -23.533118,
+    "longitude": -46.399842,
+    "tipo": "BAIRRO",
+    "distritoId": "lajeado"
+  },
+  {
+    "id": "bairro-jardim-sao-paulo-santana",
+    "nome": "Jardim São Paulo",
+    "zona": "Distrito de Santana • São Paulo",
+    "latitude": -23.491014,
+    "longitude": -46.618798,
+    "tipo": "BAIRRO",
+    "distritoId": "santana"
+  },
+  {
+    "id": "bairro-jardim-sao-pedro-jardim-angela",
+    "nome": "Jardim São Pedro",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.721888,
+    "longitude": -46.797206,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-jardim-sao-pedro-jose-bonifacio",
+    "nome": "Jardim São Pedro",
+    "zona": "Distrito de José Bonifácio • São Paulo",
+    "latitude": -23.548117,
+    "longitude": -46.428642,
+    "tipo": "BAIRRO",
+    "distritoId": "jose-bonifacio"
+  },
+  {
+    "id": "bairro-jardim-sao-raimundo-cida-4290c571",
+    "nome": "Jardim São Raimundo",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.583137,
+    "longitude": -46.38131,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-jardim-sao-roberto-sapopemba",
+    "nome": "Jardim São Roberto",
+    "zona": "Distrito de Sapopemba • São Paulo",
+    "latitude": -23.618115,
+    "longitude": -46.49873,
+    "tipo": "BAIRRO",
+    "distritoId": "sapopemba"
+  },
+  {
+    "id": "bairro-jardim-sapopemba-sapopemba",
+    "nome": "Jardim Sapopemba",
+    "zona": "Distrito de Sapopemba • São Paulo",
+    "latitude": -23.609492,
+    "longitude": -46.492739,
+    "tipo": "BAIRRO",
+    "distritoId": "sapopemba"
+  },
+  {
+    "id": "bairro-jardim-shangrila-grajau",
+    "nome": "Jardim Shangrila",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.759843,
+    "longitude": -46.667606,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-jardim-silva-teles-vila-curuca",
+    "nome": "Jardim Silva Teles",
+    "zona": "Distrito de Vila Curuçá • São Paulo",
+    "latitude": -23.501187,
+    "longitude": -46.40793,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-curuca"
+  },
+  {
+    "id": "bairro-jardim-silveira-parelheiros",
+    "nome": "Jardim Silveira",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.852003,
+    "longitude": -46.713081,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-jardim-soares-guaianases",
+    "nome": "Jardim Soares",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.549142,
+    "longitude": -46.402177,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro-jardim-texas-cidade-tiradentes",
+    "nome": "Jardim Texas",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.598106,
+    "longitude": -46.407769,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-jardim-tres-coracoes-grajau",
+    "nome": "Jardim Três Corações",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.769569,
+    "longitude": -46.683361,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-jardim-tres-marias-ponte-rasa",
+    "nome": "Jardim Três Marias",
+    "zona": "Distrito de Ponte Rasa • São Paulo",
+    "latitude": -23.51838,
+    "longitude": -46.493994,
+    "tipo": "BAIRRO",
+    "distritoId": "ponte-rasa"
+  },
+  {
+    "id": "bairro-jardim-tres-marias-sao-mateus",
+    "nome": "Jardim Três Marias",
+    "zona": "Distrito de São Mateus • São Paulo",
+    "latitude": -23.609162,
+    "longitude": -46.470873,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-mateus"
+  },
+  {
+    "id": "bairro-jardim-tres-poderes-cida-e3d1b84c",
+    "nome": "Jardim Tres Poderes",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.592253,
+    "longitude": -46.383704,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-jardim-triana-vila-matilde",
+    "nome": "Jardim Triana",
+    "zona": "Distrito de Vila Matilde • São Paulo",
+    "latitude": -23.536105,
+    "longitude": -46.505883,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-matilde"
+  },
+  {
+    "id": "bairro-jardim-varginha-grajau",
+    "nome": "Jardim Varginha",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.785561,
+    "longitude": -46.684585,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-jardim-vera-cruz-jardim-angela",
+    "nome": "Jardim Vera Cruz",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.737102,
+    "longitude": -46.778477,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-jardim-vila-carrao-sao-rafael",
+    "nome": "Jardim Vila Carrão",
+    "zona": "Distrito de São Rafael • São Paulo",
+    "latitude": -23.61831,
+    "longitude": -46.454534,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-rafael"
+  },
+  {
+    "id": "bairro-jardim-vila-mariana-vila-mariana",
+    "nome": "Jardim Vila Mariana",
+    "zona": "Distrito de Vila Mariana • São Paulo",
+    "latitude": -23.592379,
+    "longitude": -46.626159,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-mariana"
+  },
+  {
+    "id": "bairro-jardim-vilas-boas-cidade-ademar",
+    "nome": "Jardim Vilas Boas",
+    "zona": "Distrito de Cidade Ademar • São Paulo",
+    "latitude": -23.675946,
+    "longitude": -46.639929,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-ademar"
+  },
+  {
+    "id": "bairro-jardim-vista-alegre-cida-ba443d85",
+    "nome": "Jardim Vista Alegre",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.57195,
+    "longitude": -46.388353,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-jardim-vitoria-cidade-tiradentes",
+    "nome": "Jardim Vitória",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.589165,
+    "longitude": -46.387037,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-jardim-wilma-flor-cidade-a016bb79",
+    "nome": "Jardim Wilma Flôr",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.575462,
+    "longitude": -46.396295,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-jardins-jardim-paulista",
+    "nome": "Jardins",
+    "zona": "Distrito de Jardim Paulista • São Paulo",
+    "latitude": -23.573808,
+    "longitude": -46.667831,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-paulista"
+  },
+  {
+    "id": "bairro-jerusalem-jardim-sao-luis",
+    "nome": "Jerusalem",
+    "zona": "Distrito de Jardim São Luís • São Paulo",
+    "latitude": -23.664861,
+    "longitude": -46.761171,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-sao-luis"
+  },
+  {
+    "id": "bairro-lagoa-grande-parelheiros",
+    "nome": "Lagoa Grande",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.844947,
+    "longitude": -46.777115,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-lauzane-paulista-mandaqui",
+    "nome": "Lauzane Paulista",
+    "zona": "Distrito de Mandaqui • São Paulo",
+    "latitude": -23.471357,
+    "longitude": -46.644538,
+    "tipo": "BAIRRO",
+    "distritoId": "mandaqui"
+  },
+  {
+    "id": "bairro-limoeiro-vila-jacui",
+    "nome": "Limoeiro",
+    "zona": "Distrito de Vila Jacuí • São Paulo",
+    "latitude": -23.50935,
+    "longitude": -46.466002,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-jacui"
+  },
+  {
+    "id": "bairro-loteamento-rio-bahia-cid-9890691b",
+    "nome": "Loteamento Rio Bahia",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.576595,
+    "longitude": -46.386428,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-loteamento-sao-pedro-guaianases",
+    "nome": "Loteamento São Pedro",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.564309,
+    "longitude": -46.387699,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro-mata-da-juta-sapopemba",
+    "nome": "Mata da Juta",
+    "zona": "Distrito de Sapopemba • São Paulo",
+    "latitude": -23.616989,
+    "longitude": -46.490183,
+    "tipo": "BAIRRO",
+    "distritoId": "sapopemba"
+  },
+  {
+    "id": "bairro-mirandopolis-saude",
+    "nome": "Mirandópolis",
+    "zona": "Distrito de Saúde • São Paulo",
+    "latitude": -23.608307,
+    "longitude": -46.642448,
+    "tipo": "BAIRRO",
+    "distritoId": "saude"
+  },
+  {
+    "id": "bairro-morro-do-indio-jardim-angela",
+    "nome": "Morro do Índio",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.689209,
+    "longitude": -46.776741,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-morro-doce-anhanguera",
+    "nome": "Morro Doce",
+    "zona": "Distrito de Anhanguera • São Paulo",
+    "latitude": -23.445986,
+    "longitude": -46.795874,
+    "tipo": "BAIRRO",
+    "distritoId": "anhanguera"
+  },
+  {
+    "id": "bairro-morro-dos-ingleses-bela-vista",
+    "nome": "Morro dos Ingleses",
+    "zona": "Distrito de Bela Vista • São Paulo",
+    "latitude": -23.561563,
+    "longitude": -46.647388,
+    "tipo": "BAIRRO",
+    "distritoId": "bela-vista"
+  },
+  {
+    "id": "bairro-nova-america-parelheiros",
+    "nome": "Nova América",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.865175,
+    "longitude": -46.674261,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-nova-heliopolis-sacoma",
+    "nome": "Nova Heliópolis",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.612597,
+    "longitude": -46.591009,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-pacaembu-consolacao",
+    "nome": "Pacaembu",
+    "zona": "Distrito de Consolação • São Paulo",
+    "latitude": -23.548388,
+    "longitude": -46.66787,
+    "tipo": "BAIRRO",
+    "distritoId": "consolacao"
+  },
+  {
+    "id": "bairro-parada-de-taipas-jaragua",
+    "nome": "Parada de Taípas",
+    "zona": "Distrito de Jaraguá • São Paulo",
+    "latitude": -23.435289,
+    "longitude": -46.716959,
+    "tipo": "BAIRRO",
+    "distritoId": "jaragua"
+  },
+  {
+    "id": "bairro-parada-inglesa-tucuruvi",
+    "nome": "Parada Inglesa",
+    "zona": "Distrito de Tucuruvi • São Paulo",
+    "latitude": -23.486189,
+    "longitude": -46.609105,
+    "tipo": "BAIRRO",
+    "distritoId": "tucuruvi"
+  },
+  {
+    "id": "bairro-parada-xv-de-novembro-itaquera",
+    "nome": "Parada XV de Novembro",
+    "zona": "Distrito de Itaquera • São Paulo",
+    "latitude": -23.530275,
+    "longitude": -46.434407,
+    "tipo": "BAIRRO",
+    "distritoId": "itaquera"
+  },
+  {
+    "id": "bairro-paraiso-vila-mariana",
+    "nome": "Paraíso",
+    "zona": "Distrito de Vila Mariana • São Paulo",
+    "latitude": -23.573842,
+    "longitude": -46.648254,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-mariana"
+  },
+  {
+    "id": "bairro-paraisopolis-vila-andrade",
+    "nome": "Paraisópolis",
+    "zona": "Distrito de Vila Andrade • São Paulo",
+    "latitude": -23.615304,
+    "longitude": -46.725752,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-andrade"
+  },
+  {
+    "id": "bairro-parque-boa-esperanca-iguatemi",
+    "nome": "Parque Boa Esperança",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.601511,
+    "longitude": -46.45403,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-parque-boturussu-ermelin-e45b19f1",
+    "nome": "Parque Boturussu",
+    "zona": "Distrito de Ermelino Matarazzo • São Paulo",
+    "latitude": -23.49866,
+    "longitude": -46.483876,
+    "tipo": "BAIRRO",
+    "distritoId": "ermelino-matarazzo"
+  },
+  {
+    "id": "bairro-parque-brasil-grajau",
+    "nome": "Parque Brasil",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.736092,
+    "longitude": -46.693345,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-parque-central-guaianase-23912052",
+    "nome": "Parque Central Guaianases",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.544903,
+    "longitude": -46.422626,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro-parque-colonial-cidade-dutra",
+    "nome": "Parque Colonial",
+    "zona": "Distrito de Cidade Dutra • São Paulo",
+    "latitude": -23.726354,
+    "longitude": -46.684145,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-dutra"
+  },
+  {
+    "id": "bairro-parque-continental-jaguare",
+    "nome": "Parque Continental",
+    "zona": "Distrito de Jaguaré • São Paulo",
+    "latitude": -23.544553,
+    "longitude": -46.75821,
+    "tipo": "BAIRRO",
+    "distritoId": "jaguare"
+  },
+  {
+    "id": "bairro-parque-da-mooca-mooca",
+    "nome": "Parque da Mooca",
+    "zona": "Distrito de Mooca • São Paulo",
+    "latitude": -23.570508,
+    "longitude": -46.586908,
+    "tipo": "BAIRRO",
+    "distritoId": "mooca"
+  },
+  {
+    "id": "bairro-parque-das-nacoes-unidas-grajau",
+    "nome": "Parque das Nações Unidas",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.728623,
+    "longitude": -46.690585,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-parque-das-paineiras-artur-alvim",
+    "nome": "Parque das Paineiras",
+    "zona": "Distrito de Artur Alvim • São Paulo",
+    "latitude": -23.537202,
+    "longitude": -46.479321,
+    "tipo": "BAIRRO",
+    "distritoId": "artur-alvim"
+  },
+  {
+    "id": "bairro-parque-dos-principes-rio-pequeno",
+    "nome": "Parque dos Príncipes",
+    "zona": "Distrito de Rio Pequeno • São Paulo",
+    "latitude": -23.575669,
+    "longitude": -46.770974,
+    "tipo": "BAIRRO",
+    "distritoId": "rio-pequeno"
+  },
+  {
+    "id": "bairro-parque-edu-chaves-jacana",
+    "nome": "Parque Edu Chaves",
+    "zona": "Distrito de Jaçanã • São Paulo",
+    "latitude": -23.475745,
+    "longitude": -46.566803,
+    "tipo": "BAIRRO",
+    "distritoId": "jacana"
+  },
+  {
+    "id": "bairro-parque-fernanda-capao-redondo",
+    "nome": "Parque Fernanda",
+    "zona": "Distrito de Capão Redondo • São Paulo",
+    "latitude": -23.676715,
+    "longitude": -46.793967,
+    "tipo": "BAIRRO",
+    "distritoId": "capao-redondo"
+  },
+  {
+    "id": "bairro-parque-fongaro-sacoma",
+    "nome": "Parque Fongaro",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.633546,
+    "longitude": -46.594188,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-parque-guarani-itaquera",
+    "nome": "Parque Guarani",
+    "zona": "Distrito de Itaquera • São Paulo",
+    "latitude": -23.518161,
+    "longitude": -46.46299,
+    "tipo": "BAIRRO",
+    "distritoId": "itaquera"
+  },
+  {
+    "id": "bairro-parque-imperial-saude",
+    "nome": "Parque Imperial",
+    "zona": "Distrito de Saúde • São Paulo",
+    "latitude": -23.62208,
+    "longitude": -46.635207,
+    "tipo": "BAIRRO",
+    "distritoId": "saude"
+  },
+  {
+    "id": "bairro-parque-independencia-jar-b61bff09",
+    "nome": "Parque Independência",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.687087,
+    "longitude": -46.786569,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-parque-industrial-sao-lo-480f58e4",
+    "nome": "Parque Industrial São Lourenço",
+    "zona": "Distrito de São Mateus • São Paulo",
+    "latitude": -23.604076,
+    "longitude": -46.465382,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-mateus"
+  },
+  {
+    "id": "bairro-parque-ipe-raposo-tavares",
+    "nome": "Parque Ipê",
+    "zona": "Distrito de Raposo Tavares • São Paulo",
+    "latitude": -23.595771,
+    "longitude": -46.797171,
+    "tipo": "BAIRRO",
+    "distritoId": "raposo-tavares"
+  },
+  {
+    "id": "bairro-parque-jabaquara-campo-belo",
+    "nome": "Parque Jabaquara",
+    "zona": "Distrito de Campo Belo • São Paulo",
+    "latitude": -23.638733,
+    "longitude": -46.656842,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-belo"
+  },
+  {
+    "id": "bairro-parque-mandaqui-mandaqui",
+    "nome": "Parque Mandaqui",
+    "zona": "Distrito de Mandaqui • São Paulo",
+    "latitude": -23.466404,
+    "longitude": -46.633421,
+    "tipo": "BAIRRO",
+    "distritoId": "mandaqui"
+  },
+  {
+    "id": "bairro-parque-maria-domitila-sa-b7fb2e92",
+    "nome": "Parque Maria Domitila",
+    "zona": "Distrito de São Domingos • São Paulo",
+    "latitude": -23.491244,
+    "longitude": -46.739885,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-domingos"
+  },
+  {
+    "id": "bairro-parque-monteiro-soares-f-8fab518a",
+    "nome": "Parque Monteiro Soares",
+    "zona": "Distrito de Freguesia do Ó • São Paulo",
+    "latitude": -23.490477,
+    "longitude": -46.687712,
+    "tipo": "BAIRRO",
+    "distritoId": "freguesia-do-o"
+  },
+  {
+    "id": "bairro-parque-nacoes-unidas-jaragua",
+    "nome": "Parque Nações Unidas",
+    "zona": "Distrito de Jaraguá • São Paulo",
+    "latitude": -23.446335,
+    "longitude": -46.737575,
+    "tipo": "BAIRRO",
+    "distritoId": "jaragua"
+  },
+  {
+    "id": "bairro-parque-novo-mundo-vila-maria",
+    "nome": "Parque Novo Mundo",
+    "zona": "Distrito de Vila Maria • São Paulo",
+    "latitude": -23.514494,
+    "longitude": -46.56846,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-maria"
+  },
+  {
+    "id": "bairro-parque-novo-santo-amaro--53781def",
+    "nome": "Parque Novo Santo Amaro",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.698827,
+    "longitude": -46.783028,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-parque-palmas-do-trememb-e69aeac9",
+    "nome": "Parque Palmas do Tremembé",
+    "zona": "Distrito de Tremembé • São Paulo",
+    "latitude": -23.460573,
+    "longitude": -46.607512,
+    "tipo": "BAIRRO",
+    "distritoId": "tremembe"
+  },
+  {
+    "id": "bairro-parque-residencial-cocai-35a0e37a",
+    "nome": "Parque Residencial Cocaia Cantinho do Céu",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.744599,
+    "longitude": -46.659261,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-parque-santa-madalena-sapopemba",
+    "nome": "Parque Santa Madalena",
+    "zona": "Distrito de Sapopemba • São Paulo",
+    "latitude": -23.612103,
+    "longitude": -46.513626,
+    "tipo": "BAIRRO",
+    "distritoId": "sapopemba"
+  },
+  {
+    "id": "bairro-parque-santa-rita-vila-curuca",
+    "nome": "Parque Santa Rita",
+    "zona": "Distrito de Vila Curuçá • São Paulo",
+    "latitude": -23.515808,
+    "longitude": -46.417503,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-curuca"
+  },
+  {
+    "id": "bairro-parque-sao-domingos-sao-domingos",
+    "nome": "Parque São Domingos",
+    "zona": "Distrito de São Domingos • São Paulo",
+    "latitude": -23.499517,
+    "longitude": -46.738051,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-domingos"
+  },
+  {
+    "id": "bairro-parque-sao-jorge-tatuape",
+    "nome": "Parque São Jorge",
+    "zona": "Distrito de Tatuapé • São Paulo",
+    "latitude": -23.529968,
+    "longitude": -46.566067,
+    "tipo": "BAIRRO",
+    "distritoId": "tatuape"
+  },
+  {
+    "id": "bairro-parque-savoy-city-cidade-lider",
+    "nome": "Parque Savoy City",
+    "zona": "Distrito de Cidade Líder • São Paulo",
+    "latitude": -23.563266,
+    "longitude": -46.489483,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-lider"
+  },
+  {
+    "id": "bairro-parque-taipas-jaragua",
+    "nome": "Parque Taipas",
+    "zona": "Distrito de Jaraguá • São Paulo",
+    "latitude": -23.428522,
+    "longitude": -46.713703,
+    "tipo": "BAIRRO",
+    "distritoId": "jaragua"
+  },
+  {
+    "id": "bairro-parque-vitoria-tucuruvi",
+    "nome": "Parque Vitória",
+    "zona": "Distrito de Tucuruvi • São Paulo",
+    "latitude": -23.471311,
+    "longitude": -46.594706,
+    "tipo": "BAIRRO",
+    "distritoId": "tucuruvi"
+  },
+  {
+    "id": "bairro-piqueri-pirituba",
+    "nome": "Piqueri",
+    "zona": "Distrito de Pirituba • São Paulo",
+    "latitude": -23.499963,
+    "longitude": -46.712375,
+    "tipo": "BAIRRO",
+    "distritoId": "pirituba"
+  },
+  {
+    "id": "bairro-planalto-paulista-saude",
+    "nome": "Planalto Paulista",
+    "zona": "Distrito de Saúde • São Paulo",
+    "latitude": -23.616828,
+    "longitude": -46.648226,
+    "tipo": "BAIRRO",
+    "distritoId": "saude"
+  },
+  {
+    "id": "bairro-pompeia-perdizes",
+    "nome": "Pompéia",
+    "zona": "Distrito de Perdizes • São Paulo",
+    "latitude": -23.530556,
+    "longitude": -46.68498,
+    "tipo": "BAIRRO",
+    "distritoId": "perdizes"
+  },
+  {
+    "id": "bairro-recanto-campo-belo-parelheiros",
+    "nome": "Recanto Campo Belo",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.791959,
+    "longitude": -46.732694,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-residencial-vista-verde-pirituba",
+    "nome": "Residencial Vista Verde",
+    "zona": "Distrito de Pirituba • São Paulo",
+    "latitude": -23.474302,
+    "longitude": -46.752301,
+    "tipo": "BAIRRO",
+    "distritoId": "pirituba"
+  },
+  {
+    "id": "bairro-santa-ifigenia-republica",
+    "nome": "Santa Ifigênia",
+    "zona": "Distrito de República • São Paulo",
+    "latitude": -23.53762,
+    "longitude": -46.639183,
+    "tipo": "BAIRRO",
+    "distritoId": "republica"
+  },
+  {
+    "id": "bairro-santa-margarida-paulista-6ae8d7e0",
+    "nome": "Santa Margarida Paulista",
+    "zona": "Distrito de Itaim Paulista • São Paulo",
+    "latitude": -23.518102,
+    "longitude": -46.39891,
+    "tipo": "BAIRRO",
+    "distritoId": "itaim-paulista"
+  },
+  {
+    "id": "bairro-santa-teresinha-santana",
+    "nome": "Santa Teresinha",
+    "zona": "Distrito de Santana • São Paulo",
+    "latitude": -23.490583,
+    "longitude": -46.634307,
+    "tipo": "BAIRRO",
+    "distritoId": "santana"
+  },
+  {
+    "id": "bairro-sao-joao-climaco-sacoma",
+    "nome": "São João Climaco",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.624268,
+    "longitude": -46.59415,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-sao-judas-saude",
+    "nome": "São Judas",
+    "zona": "Distrito de Saúde • São Paulo",
+    "latitude": -23.625382,
+    "longitude": -46.63567,
+    "tipo": "BAIRRO",
+    "distritoId": "saude"
+  },
+  {
+    "id": "bairro-sitio-dos-pereiras-cidad-00ac1b1d",
+    "nome": "Sítio dos Pereiras",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.583526,
+    "longitude": -46.385046,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-sitio-santa-etelvina-cid-2a1b6575",
+    "nome": "Sítio Santa Etelvina",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.586586,
+    "longitude": -46.411778,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-sumare-perdizes",
+    "nome": "Sumaré",
+    "zona": "Distrito de Perdizes • São Paulo",
+    "latitude": -23.545379,
+    "longitude": -46.681174,
+    "tipo": "BAIRRO",
+    "distritoId": "perdizes"
+  },
+  {
+    "id": "bairro-sumarezinho-pinheiros",
+    "nome": "Sumarezinho",
+    "zona": "Distrito de Pinheiros • São Paulo",
+    "latitude": -23.547111,
+    "longitude": -46.692151,
+    "tipo": "BAIRRO",
+    "distritoId": "pinheiros"
+  },
+  {
+    "id": "bairro-uniao-de-vila-nova-vila-jacui",
+    "nome": "União de Vila Nova",
+    "zona": "Distrito de Vila Jacuí • São Paulo",
+    "latitude": -23.484413,
+    "longitude": -46.458578,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-jacui"
+  },
+  {
+    "id": "bairro-valquiria-capao-redondo",
+    "nome": "Valquiria",
+    "zona": "Distrito de Capão Redondo • São Paulo",
+    "latitude": -23.654554,
+    "longitude": -46.778687,
+    "tipo": "BAIRRO",
+    "distritoId": "capao-redondo"
+  },
+  {
+    "id": "bairro-vargem-grande-parelheiros",
+    "nome": "Vargem Grande",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.860568,
+    "longitude": -46.707629,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-vila-albertina-tremembe",
+    "nome": "Vila Albertina",
+    "zona": "Distrito de Tremembé • São Paulo",
+    "latitude": -23.452056,
+    "longitude": -46.611312,
+    "tipo": "BAIRRO",
+    "distritoId": "tremembe"
+  },
+  {
+    "id": "bairro-vila-alexandria-campo-belo",
+    "nome": "Vila Alexandria",
+    "zona": "Distrito de Campo Belo • São Paulo",
+    "latitude": -23.64187,
+    "longitude": -46.671428,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-belo"
+  },
+  {
+    "id": "bairro-vila-alpina-vila-prudente",
+    "nome": "Vila Alpina",
+    "zona": "Distrito de Vila Prudente • São Paulo",
+    "latitude": -23.595858,
+    "longitude": -46.55893,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-prudente"
+  },
+  {
+    "id": "bairro-vila-alto-da-alegria-grajau",
+    "nome": "Vila Alto da Alegria",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.744819,
+    "longitude": -46.6928,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-vila-amelia-cachoeirinha",
+    "nome": "Vila Amélia",
+    "zona": "Distrito de Cachoeirinha • São Paulo",
+    "latitude": -23.471303,
+    "longitude": -46.652893,
+    "tipo": "BAIRRO",
+    "distritoId": "cachoeirinha"
+  },
+  {
+    "id": "bairro-vila-anastacio-lapa",
+    "nome": "Vila Anastácio",
+    "zona": "Distrito de Lapa • São Paulo",
+    "latitude": -23.515517,
+    "longitude": -46.718246,
+    "tipo": "BAIRRO",
+    "distritoId": "lapa"
+  },
+  {
+    "id": "bairro-vila-anglo-brasileira-perdizes",
+    "nome": "Vila Anglo-Brasileira",
+    "zona": "Distrito de Perdizes • São Paulo",
+    "latitude": -23.540083,
+    "longitude": -46.69492,
+    "tipo": "BAIRRO",
+    "distritoId": "perdizes"
+  },
+  {
+    "id": "bairro-vila-arapua-sacoma",
+    "nome": "Vila Arapuã",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.635092,
+    "longitude": -46.590625,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-vila-argentina-lapa",
+    "nome": "Vila Argentina",
+    "zona": "Distrito de Lapa • São Paulo",
+    "latitude": -23.537506,
+    "longitude": -46.704875,
+    "tipo": "BAIRRO",
+    "distritoId": "lapa"
+  },
+  {
+    "id": "bairro-vila-aricanduva-vila-matilde",
+    "nome": "Vila Aricanduva",
+    "zona": "Distrito de Vila Matilde • São Paulo",
+    "latitude": -23.536301,
+    "longitude": -46.541582,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-matilde"
+  },
+  {
+    "id": "bairro-vila-arriete-campo-grande",
+    "nome": "Vila Arriete",
+    "zona": "Distrito de Campo Grande • São Paulo",
+    "latitude": -23.68215,
+    "longitude": -46.682443,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-grande"
+  },
+  {
+    "id": "bairro-vila-aurora-mandaqui",
+    "nome": "Vila Aurora",
+    "zona": "Distrito de Mandaqui • São Paulo",
+    "latitude": -23.474227,
+    "longitude": -46.6256,
+    "tipo": "BAIRRO",
+    "distritoId": "mandaqui"
+  },
+  {
+    "id": "bairro-vila-aymore-jardim-helena",
+    "nome": "Vila Aymoré",
+    "zona": "Distrito de Jardim Helena • São Paulo",
+    "latitude": -23.487671,
+    "longitude": -46.40139,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-helena"
+  },
+  {
+    "id": "bairro-vila-azevedo-tatuape",
+    "nome": "Vila Azevedo",
+    "zona": "Distrito de Tatuapé • São Paulo",
+    "latitude": -23.54269,
+    "longitude": -46.571358,
+    "tipo": "BAIRRO",
+    "distritoId": "tatuape"
+  },
+  {
+    "id": "bairro-vila-bancaria-sapopemba",
+    "nome": "Vila Bancária",
+    "zona": "Distrito de Sapopemba • São Paulo",
+    "latitude": -23.589595,
+    "longitude": -46.522999,
+    "tipo": "BAIRRO",
+    "distritoId": "sapopemba"
+  },
+  {
+    "id": "bairro-vila-bandeirantes-sacoma",
+    "nome": "Vila Bandeirantes",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.61508,
+    "longitude": -46.600522,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-vila-beatriz-alto-de-pinheiros",
+    "nome": "Vila Beatriz",
+    "zona": "Distrito de Alto de Pinheiros • São Paulo",
+    "latitude": -23.549968,
+    "longitude": -46.697779,
+    "tipo": "BAIRRO",
+    "distritoId": "alto-de-pinheiros"
+  },
+  {
+    "id": "bairro-vila-bnh-leste-grajau",
+    "nome": "Vila BNH Leste",
+    "zona": "Distrito de Grajaú • São Paulo",
+    "latitude": -23.760238,
+    "longitude": -46.674029,
+    "tipo": "BAIRRO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "bairro-vila-brasilandia-freguesia-do-o",
+    "nome": "Vila Brasilândia",
+    "zona": "Distrito de Freguesia do Ó • São Paulo",
+    "latitude": -23.475928,
+    "longitude": -46.705413,
+    "tipo": "BAIRRO",
+    "distritoId": "freguesia-do-o"
+  },
+  {
+    "id": "bairro-vila-buarque-republica",
+    "nome": "Vila Buarque",
+    "zona": "Distrito de República • São Paulo",
+    "latitude": -23.544562,
+    "longitude": -46.647552,
+    "tipo": "BAIRRO",
+    "distritoId": "republica"
+  },
+  {
+    "id": "bairro-vila-buenos-aires-cangaiba",
+    "nome": "Vila Buenos Aires",
+    "zona": "Distrito de Cangaíba • São Paulo",
+    "latitude": -23.509158,
+    "longitude": -46.514742,
+    "tipo": "BAIRRO",
+    "distritoId": "cangaiba"
+  },
+  {
+    "id": "bairro-vila-caiuba-perus",
+    "nome": "Vila Caiuba",
+    "zona": "Distrito de Perus • São Paulo",
+    "latitude": -23.399661,
+    "longitude": -46.74974,
+    "tipo": "BAIRRO",
+    "distritoId": "perus"
+  },
+  {
+    "id": "bairro-vila-campanela-sao-paulo-itaquera",
+    "nome": "Vila Campanela São Paulo",
+    "zona": "Distrito de Itaquera • São Paulo",
+    "latitude": -23.537391,
+    "longitude": -46.462081,
+    "tipo": "BAIRRO",
+    "distritoId": "itaquera"
+  },
+  {
+    "id": "bairro-vila-campestre-jabaquara",
+    "nome": "Vila Campestre",
+    "zona": "Distrito de Jabaquara • São Paulo",
+    "latitude": -23.659689,
+    "longitude": -46.648434,
+    "tipo": "BAIRRO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "bairro-vila-cardoso-franco-sapopemba",
+    "nome": "Vila Cardoso Franco",
+    "zona": "Distrito de Sapopemba • São Paulo",
+    "latitude": -23.625071,
+    "longitude": -46.50617,
+    "tipo": "BAIRRO",
+    "distritoId": "sapopemba"
+  },
+  {
+    "id": "bairro-vila-carlo-maderna-cidade-lider",
+    "nome": "Vila Carlo Maderna",
+    "zona": "Distrito de Cidade Líder • São Paulo",
+    "latitude": -23.56335,
+    "longitude": -46.481604,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-lider"
+  },
+  {
+    "id": "bairro-vila-carmosina-itaquera",
+    "nome": "Vila Carmosina",
+    "zona": "Distrito de Itaquera • São Paulo",
+    "latitude": -23.540372,
+    "longitude": -46.454171,
+    "tipo": "BAIRRO",
+    "distritoId": "itaquera"
+  },
+  {
+    "id": "bairro-vila-chavantes-sao-miguel",
+    "nome": "Vila Chavantes",
+    "zona": "Distrito de São Miguel • São Paulo",
+    "latitude": -23.514741,
+    "longitude": -46.442271,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-miguel"
+  },
+  {
+    "id": "bairro-vila-cirenaica-cidade-ademar",
+    "nome": "Vila Cirenaica",
+    "zona": "Distrito de Cidade Ademar • São Paulo",
+    "latitude": -23.676171,
+    "longitude": -46.631223,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-ademar"
+  },
+  {
+    "id": "bairro-vila-clara-cidade-ademar",
+    "nome": "Vila Clara",
+    "zona": "Distrito de Cidade Ademar • São Paulo",
+    "latitude": -23.673015,
+    "longitude": -46.639619,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-ademar"
+  },
+  {
+    "id": "bairro-vila-clarice-pirituba",
+    "nome": "Vila Clarice",
+    "zona": "Distrito de Pirituba • São Paulo",
+    "latitude": -23.468749,
+    "longitude": -46.75059,
+    "tipo": "BAIRRO",
+    "distritoId": "pirituba"
+  },
+  {
+    "id": "bairro-vila-clementino-vila-mariana",
+    "nome": "Vila Clementino",
+    "zona": "Distrito de Vila Mariana • São Paulo",
+    "latitude": -23.598006,
+    "longitude": -46.643418,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-mariana"
+  },
+  {
+    "id": "bairro-vila-conde-do-pinhal-sacoma",
+    "nome": "Vila Conde do Pinhal",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.618052,
+    "longitude": -46.593796,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-vila-corrego-da-agua-ver-e218dac9",
+    "nome": "Vila Córrego da Água Vermelha",
+    "zona": "Distrito de Vila Curuçá • São Paulo",
+    "latitude": -23.517001,
+    "longitude": -46.41736,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-curuca"
+  },
+  {
+    "id": "bairro-vila-cosmopolita-guaianases",
+    "nome": "VIla Cosmopolita",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.561023,
+    "longitude": -46.422691,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro-vila-costa-melo-ponte-rasa",
+    "nome": "Vila Costa Melo",
+    "zona": "Distrito de Ponte Rasa • São Paulo",
+    "latitude": -23.515398,
+    "longitude": -46.514068,
+    "tipo": "BAIRRO",
+    "distritoId": "ponte-rasa"
+  },
+  {
+    "id": "bairro-vila-cristina-sacoma",
+    "nome": "Vila Cristina",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.652791,
+    "longitude": -46.604985,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-vila-cunha-bueno-sapopemba",
+    "nome": "Vila Cunha Bueno",
+    "zona": "Distrito de Sapopemba • São Paulo",
+    "latitude": -23.603737,
+    "longitude": -46.514168,
+    "tipo": "BAIRRO",
+    "distritoId": "sapopemba"
+  },
+  {
+    "id": "bairro-vila-dalila-vila-matilde",
+    "nome": "Vila Dalila",
+    "zona": "Distrito de Vila Matilde • São Paulo",
+    "latitude": -23.546397,
+    "longitude": -46.520353,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-matilde"
+  },
+  {
+    "id": "bairro-vila-das-merces-sacoma",
+    "nome": "Vila das Mercês",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.623161,
+    "longitude": -46.608535,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-vila-dersa-jabaquara",
+    "nome": "Vila Dersa",
+    "zona": "Distrito de Jabaquara • São Paulo",
+    "latitude": -23.668372,
+    "longitude": -46.633435,
+    "tipo": "BAIRRO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "bairro-vila-do-bosque-saude",
+    "nome": "Vila do Bosque",
+    "zona": "Distrito de Saúde • São Paulo",
+    "latitude": -23.620403,
+    "longitude": -46.629923,
+    "tipo": "BAIRRO",
+    "distritoId": "saude"
+  },
+  {
+    "id": "bairro-vila-do-encontro-jabaquara",
+    "nome": "Vila do Encontro",
+    "zona": "Distrito de Jabaquara • São Paulo",
+    "latitude": -23.651586,
+    "longitude": -46.639929,
+    "tipo": "BAIRRO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "bairro-vila-do-sol-jardim-angela",
+    "nome": "Vila do Sol",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.735892,
+    "longitude": -46.782902,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-vila-dom-macario-cursino",
+    "nome": "Vila Dom Macário",
+    "zona": "Distrito de Cursino • São Paulo",
+    "latitude": -23.619764,
+    "longitude": -46.612801,
+    "tipo": "BAIRRO",
+    "distritoId": "cursino"
+  },
+  {
+    "id": "bairro-vila-dom-pedro-i-ipiranga",
+    "nome": "Vila Dom Pedro I",
+    "zona": "Distrito de Ipiranga • São Paulo",
+    "latitude": -23.60193,
+    "longitude": -46.61366,
+    "tipo": "BAIRRO",
+    "distritoId": "ipiranga"
+  },
+  {
+    "id": "bairro-vila-dona-graca-iguatemi",
+    "nome": "Vila Dona Graça",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.598077,
+    "longitude": -46.429552,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-vila-ede-vila-medeiros",
+    "nome": "Vila Ede",
+    "zona": "Distrito de Vila Medeiros • São Paulo",
+    "latitude": -23.493659,
+    "longitude": -46.59339,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-medeiros"
+  },
+  {
+    "id": "bairro-vila-esperanca-penha",
+    "nome": "Vila Esperança",
+    "zona": "Distrito de Penha • São Paulo",
+    "latitude": -23.525585,
+    "longitude": -46.527724,
+    "tipo": "BAIRRO",
+    "distritoId": "penha"
+  },
+  {
+    "id": "bairro-vila-eugenia-iguatemi",
+    "nome": "Vila Eugênia",
+    "zona": "Distrito de Iguatemi • São Paulo",
+    "latitude": -23.59508,
+    "longitude": -46.453285,
+    "tipo": "BAIRRO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "bairro-vila-fernandes-carrao",
+    "nome": "Vila Fernandes",
+    "zona": "Distrito de Carrão • São Paulo",
+    "latitude": -23.560068,
+    "longitude": -46.532012,
+    "tipo": "BAIRRO",
+    "distritoId": "carrao"
+  },
+  {
+    "id": "bairro-vila-firmiano-pinto-cursino",
+    "nome": "Vila Firmiano Pinto",
+    "zona": "Distrito de Cursino • São Paulo",
+    "latitude": -23.598904,
+    "longitude": -46.619423,
+    "tipo": "BAIRRO",
+    "distritoId": "cursino"
+  },
+  {
+    "id": "bairro-vila-frugoli-ponte-rasa",
+    "nome": "Vila Frugoli",
+    "zona": "Distrito de Ponte Rasa • São Paulo",
+    "latitude": -23.518729,
+    "longitude": -46.50076,
+    "tipo": "BAIRRO",
+    "distritoId": "ponte-rasa"
+  },
+  {
+    "id": "bairro-vila-galpozani-campo-limpo",
+    "nome": "Vila Galpozani",
+    "zona": "Distrito de Campo Limpo • São Paulo",
+    "latitude": -23.649443,
+    "longitude": -46.775257,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-limpo"
+  },
+  {
+    "id": "bairro-vila-gea-campo-grande",
+    "nome": "Vila Géa",
+    "zona": "Distrito de Campo Grande • São Paulo",
+    "latitude": -23.67415,
+    "longitude": -46.687577,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-grande"
+  },
+  {
+    "id": "bairro-vila-gilda-jardim-angela",
+    "nome": "Vila Gilda",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.724914,
+    "longitude": -46.753499,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-vila-gomes-cardim-tatuape",
+    "nome": "Vila Gomes Cardim",
+    "zona": "Distrito de Tatuapé • São Paulo",
+    "latitude": -23.54515,
+    "longitude": -46.561703,
+    "tipo": "BAIRRO",
+    "distritoId": "tatuape"
+  },
+  {
+    "id": "bairro-vila-granada-penha",
+    "nome": "Vila Granada",
+    "zona": "Distrito de Penha • São Paulo",
+    "latitude": -23.523506,
+    "longitude": -46.514305,
+    "tipo": "BAIRRO",
+    "distritoId": "penha"
+  },
+  {
+    "id": "bairro-vila-grao-mogol-jardim-helena",
+    "nome": "Vila Grão Mogol",
+    "zona": "Distrito de Jardim Helena • São Paulo",
+    "latitude": -23.489988,
+    "longitude": -46.404378,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-helena"
+  },
+  {
+    "id": "bairro-vila-gruta-das-princesas-1c44e15c",
+    "nome": "Vila Gruta das Princesas",
+    "zona": "Distrito de Jardim Helena • São Paulo",
+    "latitude": -23.482739,
+    "longitude": -46.394181,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-helena"
+  },
+  {
+    "id": "bairro-vila-guaraciaba-cangaiba",
+    "nome": "Vila Guaraciaba",
+    "zona": "Distrito de Cangaíba • São Paulo",
+    "latitude": -23.484412,
+    "longitude": -46.497078,
+    "tipo": "BAIRRO",
+    "distritoId": "cangaiba"
+  },
+  {
+    "id": "bairro-vila-guarani-jabaquara",
+    "nome": "Vila Guarani",
+    "zona": "Distrito de Jabaquara • São Paulo",
+    "latitude": -23.636608,
+    "longitude": -46.636676,
+    "tipo": "BAIRRO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "bairro-vila-guilhermina-vila-matilde",
+    "nome": "Vila Guilhermina",
+    "zona": "Distrito de Vila Matilde • São Paulo",
+    "latitude": -23.533387,
+    "longitude": -46.515342,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-matilde"
+  },
+  {
+    "id": "bairro-vila-gumercindo-cursino",
+    "nome": "Vila Gumercindo",
+    "zona": "Distrito de Cursino • São Paulo",
+    "latitude": -23.604668,
+    "longitude": -46.62095,
+    "tipo": "BAIRRO",
+    "distritoId": "cursino"
+  },
+  {
+    "id": "bairro-vila-gustavo-tucuruvi",
+    "nome": "Vila Gustavo",
+    "zona": "Distrito de Tucuruvi • São Paulo",
+    "latitude": -23.480713,
+    "longitude": -46.595821,
+    "tipo": "BAIRRO",
+    "distritoId": "tucuruvi"
+  },
+  {
+    "id": "bairro-vila-hamburguesa-vila-leopoldina",
+    "nome": "Vila Hamburguesa",
+    "zona": "Distrito de Vila Leopoldina • São Paulo",
+    "latitude": -23.533461,
+    "longitude": -46.726258,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-leopoldina"
+  },
+  {
+    "id": "bairro-vila-ida-alto-de-pinheiros",
+    "nome": "Vila Ida",
+    "zona": "Distrito de Alto de Pinheiros • São Paulo",
+    "latitude": -23.543101,
+    "longitude": -46.70742,
+    "tipo": "BAIRRO",
+    "distritoId": "alto-de-pinheiros"
+  },
+  {
+    "id": "bairro-vila-imperio-cidade-ademar",
+    "nome": "Vila Império",
+    "zona": "Distrito de Cidade Ademar • São Paulo",
+    "latitude": -23.670381,
+    "longitude": -46.651155,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-ademar"
+  },
+  {
+    "id": "bairro-vila-independencia-ipiranga",
+    "nome": "Vila Independência",
+    "zona": "Distrito de Ipiranga • São Paulo",
+    "latitude": -23.597362,
+    "longitude": -46.593456,
+    "tipo": "BAIRRO",
+    "distritoId": "ipiranga"
+  },
+  {
+    "id": "bairro-vila-ipojuca-lapa",
+    "nome": "Vila Ipojuca",
+    "zona": "Distrito de Lapa • São Paulo",
+    "latitude": -23.533519,
+    "longitude": -46.708465,
+    "tipo": "BAIRRO",
+    "distritoId": "lapa"
+  },
+  {
+    "id": "bairro-vila-isolina-mazzei-vila-33bd3ad0",
+    "nome": "Vila Isolina Mazzei",
+    "zona": "Distrito de Vila Guilherme • São Paulo",
+    "latitude": -23.493039,
+    "longitude": -46.603823,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-guilherme"
+  },
+  {
+    "id": "bairro-vila-itaim-itaim-paulista",
+    "nome": "Vila Itaim",
+    "zona": "Distrito de Itaim Paulista • São Paulo",
+    "latitude": -23.49178,
+    "longitude": -46.38947,
+    "tipo": "BAIRRO",
+    "distritoId": "itaim-paulista"
+  },
+  {
+    "id": "bairro-vila-itaim-jardim-helena",
+    "nome": "Vila Itaim",
+    "zona": "Distrito de Jardim Helena • São Paulo",
+    "latitude": -23.491391,
+    "longitude": -46.400757,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-helena"
+  },
+  {
+    "id": "bairro-vila-jaguara-jaguara",
+    "nome": "Vila Jaguara",
+    "zona": "Distrito de Jaguara • São Paulo",
+    "latitude": -23.507615,
+    "longitude": -46.754978,
+    "tipo": "BAIRRO",
+    "distritoId": "jaguara"
+  },
+  {
+    "id": "bairro-vila-jaragua-sao-domingos",
+    "nome": "Vila Jaraguá",
+    "zona": "Distrito de São Domingos • São Paulo",
+    "latitude": -23.483967,
+    "longitude": -46.764967,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-domingos"
+  },
+  {
+    "id": "bairro-vila-jardim-maia-jardim-helena",
+    "nome": "Vila Jardim Maia",
+    "zona": "Distrito de Jardim Helena • São Paulo",
+    "latitude": -23.483103,
+    "longitude": -46.41605,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-helena"
+  },
+  {
+    "id": "bairro-vila-jardim-maristela-sa-5358ac91",
+    "nome": "Vila Jardim Maristela",
+    "zona": "Distrito de São Domingos • São Paulo",
+    "latitude": -23.487356,
+    "longitude": -46.754379,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-domingos"
+  },
+  {
+    "id": "bairro-vila-jardim-maristela-sacoma",
+    "nome": "Vila Jardim Maristela",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.63813,
+    "longitude": -46.601368,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-vila-jardim-morro-orient-f43ed116",
+    "nome": "Vila Jardim Morro Oriente",
+    "zona": "Distrito de Campo Limpo • São Paulo",
+    "latitude": -23.636253,
+    "longitude": -46.758976,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-limpo"
+  },
+  {
+    "id": "bairro-vila-jardim-olinda-campo-limpo",
+    "nome": "Vila Jardim Olinda",
+    "zona": "Distrito de Campo Limpo • São Paulo",
+    "latitude": -23.63137,
+    "longitude": -46.75553,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-limpo"
+  },
+  {
+    "id": "bairro-vila-jardim-paris-campo-limpo",
+    "nome": "Vila Jardim Paris",
+    "zona": "Distrito de Campo Limpo • São Paulo",
+    "latitude": -23.638313,
+    "longitude": -46.77128,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-limpo"
+  },
+  {
+    "id": "bairro-vila-jardim-planalto-sapopemba",
+    "nome": "Vila Jardim Planalto",
+    "zona": "Distrito de Sapopemba • São Paulo",
+    "latitude": -23.611783,
+    "longitude": -46.521214,
+    "tipo": "BAIRRO",
+    "distritoId": "sapopemba"
+  },
+  {
+    "id": "bairro-vila-jardim-sao-matinho--f5610713",
+    "nome": "Vila Jardim São Matinho",
+    "zona": "Distrito de Jardim Helena • São Paulo",
+    "latitude": -23.483235,
+    "longitude": -46.413612,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-helena"
+  },
+  {
+    "id": "bairro-vila-jardim-umuarama-campo-limpo",
+    "nome": "Vila Jardim Umuarama",
+    "zona": "Distrito de Campo Limpo • São Paulo",
+    "latitude": -23.646943,
+    "longitude": -46.770216,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-limpo"
+  },
+  {
+    "id": "bairro-vila-joaquim-meira-cidade-lider",
+    "nome": "Vila Joaquim Meira",
+    "zona": "Distrito de Cidade Líder • São Paulo",
+    "latitude": -23.5764,
+    "longitude": -46.487584,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-lider"
+  },
+  {
+    "id": "bairro-vila-lais-penha",
+    "nome": "Vila Laís",
+    "zona": "Distrito de Penha • São Paulo",
+    "latitude": -23.517956,
+    "longitude": -46.541878,
+    "tipo": "BAIRRO",
+    "distritoId": "penha"
+  },
+  {
+    "id": "bairro-vila-leonidas-moreira-campo-limpo",
+    "nome": "Vila Leônidas Moreira",
+    "zona": "Distrito de Campo Limpo • São Paulo",
+    "latitude": -23.643333,
+    "longitude": -46.778128,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-limpo"
+  },
+  {
+    "id": "bairro-vila-liviero-sacoma",
+    "nome": "Vila Liviero",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.644552,
+    "longitude": -46.593574,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-vila-machado-nunes-parqu-e4c267dd",
+    "nome": "Vila Machado Nunes",
+    "zona": "Distrito de Parque do Carmo • São Paulo",
+    "latitude": -23.578685,
+    "longitude": -46.485341,
+    "tipo": "BAIRRO",
+    "distritoId": "parque-do-carmo"
+  },
+  {
+    "id": "bairro-vila-madalena-pinheiros",
+    "nome": "Vila Madalena",
+    "zona": "Distrito de Pinheiros • São Paulo",
+    "latitude": -23.555502,
+    "longitude": -46.691187,
+    "tipo": "BAIRRO",
+    "distritoId": "pinheiros"
+  },
+  {
+    "id": "bairro-vila-marcelo-parelheiros",
+    "nome": "Vila Marcelo",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.790872,
+    "longitude": -46.723855,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-vila-margarida-jardim-helena",
+    "nome": "Vila Margarida",
+    "zona": "Distrito de Jardim Helena • São Paulo",
+    "latitude": -23.481999,
+    "longitude": -46.389778,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-helena"
+  },
+  {
+    "id": "bairro-vila-maria-eugenia-sao-domingos",
+    "nome": "Vila Maria Eugênia",
+    "zona": "Distrito de São Domingos • São Paulo",
+    "latitude": -23.491626,
+    "longitude": -46.752774,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-domingos"
+  },
+  {
+    "id": "bairro-vila-marieta-penha",
+    "nome": "Vila Marieta",
+    "zona": "Distrito de Penha • São Paulo",
+    "latitude": -23.516392,
+    "longitude": -46.523163,
+    "tipo": "BAIRRO",
+    "distritoId": "penha"
+  },
+  {
+    "id": "bairro-vila-marilena-guaianases",
+    "nome": "Vila Marilena",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.555714,
+    "longitude": -46.415171,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro-vila-marisa-jaguara",
+    "nome": "Vila Marisa",
+    "zona": "Distrito de Jaguara • São Paulo",
+    "latitude": -23.508486,
+    "longitude": -46.760259,
+    "tipo": "BAIRRO",
+    "distritoId": "jaguara"
+  },
+  {
+    "id": "bairro-vila-mascote-jabaquara",
+    "nome": "Vila Mascote",
+    "zona": "Distrito de Jabaquara • São Paulo",
+    "latitude": -23.645917,
+    "longitude": -46.667555,
+    "tipo": "BAIRRO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "bairro-vila-mazzei-tucuruvi",
+    "nome": "Vila Mazzei",
+    "zona": "Distrito de Tucuruvi • São Paulo",
+    "latitude": -23.472956,
+    "longitude": -46.600822,
+    "tipo": "BAIRRO",
+    "distritoId": "tucuruvi"
+  },
+  {
+    "id": "bairro-vila-mirante-pirituba",
+    "nome": "Vila Mirante",
+    "zona": "Distrito de Pirituba • São Paulo",
+    "latitude": -23.469082,
+    "longitude": -46.722001,
+    "tipo": "BAIRRO",
+    "distritoId": "pirituba"
+  },
+  {
+    "id": "bairro-vila-missionaria-campo-limpo",
+    "nome": "Vila Missionária",
+    "zona": "Distrito de Campo Limpo • São Paulo",
+    "latitude": -23.646916,
+    "longitude": -46.771246,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-limpo"
+  },
+  {
+    "id": "bairro-vila-moinho-velho-sacoma",
+    "nome": "Vila Moinho Velho",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.61203,
+    "longitude": -46.603297,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-vila-monforte-de-lemos-c-7541b10b",
+    "nome": "Vila Monforte de Lemos",
+    "zona": "Distrito de Campo Limpo • São Paulo",
+    "latitude": -23.648847,
+    "longitude": -46.771584,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-limpo"
+  },
+  {
+    "id": "bairro-vila-monte-alegre-saude",
+    "nome": "Vila Monte Alegre",
+    "zona": "Distrito de Saúde • São Paulo",
+    "latitude": -23.627598,
+    "longitude": -46.635236,
+    "tipo": "BAIRRO",
+    "distritoId": "saude"
+  },
+  {
+    "id": "bairro-vila-monumento-ipiranga",
+    "nome": "Vila Monumento",
+    "zona": "Distrito de Ipiranga • São Paulo",
+    "latitude": -23.576422,
+    "longitude": -46.61378,
+    "tipo": "BAIRRO",
+    "distritoId": "ipiranga"
+  },
+  {
+    "id": "bairro-vila-morada-do-sol-cidade-lider",
+    "nome": "Vila Morada do Sol",
+    "zona": "Distrito de Cidade Líder • São Paulo",
+    "latitude": -23.571286,
+    "longitude": -46.492738,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-lider"
+  },
+  {
+    "id": "bairro-vila-munhoz-vila-medeiros",
+    "nome": "Vila Munhoz",
+    "zona": "Distrito de Vila Medeiros • São Paulo",
+    "latitude": -23.498752,
+    "longitude": -46.588641,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-medeiros"
+  },
+  {
+    "id": "bairro-vila-natalia-sacoma",
+    "nome": "Vila Natalia",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.627133,
+    "longitude": -46.596314,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-vila-nhocune-artur-alvim",
+    "nome": "Vila Nhocuné",
+    "zona": "Distrito de Artur Alvim • São Paulo",
+    "latitude": -23.543879,
+    "longitude": -46.496717,
+    "tipo": "BAIRRO",
+    "distritoId": "artur-alvim"
+  },
+  {
+    "id": "bairro-vila-nilo-jacana",
+    "nome": "Vila Nilo",
+    "zona": "Distrito de Jaçanã • São Paulo",
+    "latitude": -23.460173,
+    "longitude": -46.574454,
+    "tipo": "BAIRRO",
+    "distritoId": "jacana"
+  },
+  {
+    "id": "bairro-vila-nova-campo-limpo",
+    "nome": "Vila Nova",
+    "zona": "Distrito de Campo Limpo • São Paulo",
+    "latitude": -23.638726,
+    "longitude": -46.77093,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-limpo"
+  },
+  {
+    "id": "bairro-vila-nova-curuca-vila-curuca",
+    "nome": "Vila Nova Curuça",
+    "zona": "Distrito de Vila Curuçá • São Paulo",
+    "latitude": -23.517118,
+    "longitude": -46.419189,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-curuca"
+  },
+  {
+    "id": "bairro-vila-nova-jaguare-jaguare",
+    "nome": "Vila Nova Jaguaré",
+    "zona": "Distrito de Jaguaré • São Paulo",
+    "latitude": -23.544936,
+    "longitude": -46.742709,
+    "tipo": "BAIRRO",
+    "distritoId": "jaguare"
+  },
+  {
+    "id": "bairro-vila-odete-lajeado",
+    "nome": "Vila Odete",
+    "zona": "Distrito de Lajeado • São Paulo",
+    "latitude": -23.535029,
+    "longitude": -46.409991,
+    "tipo": "BAIRRO",
+    "distritoId": "lajeado"
+  },
+  {
+    "id": "bairro-vila-olimpia-itaim-bibi",
+    "nome": "Vila Olímpia",
+    "zona": "Distrito de Itaim Bibi • São Paulo",
+    "latitude": -23.594037,
+    "longitude": -46.68423,
+    "tipo": "BAIRRO",
+    "distritoId": "itaim-bibi"
+  },
+  {
+    "id": "bairro-vila-operaria-maria-zelia-belem",
+    "nome": "Vila Operária Maria Zélia",
+    "zona": "Distrito de Belém • São Paulo",
+    "latitude": -23.532989,
+    "longitude": -46.59809,
+    "tipo": "BAIRRO",
+    "distritoId": "belem"
+  },
+  {
+    "id": "bairro-vila-pantanal-2-sao-miguel",
+    "nome": "Vila Pantanal 2",
+    "zona": "Distrito de São Miguel • São Paulo",
+    "latitude": -23.484746,
+    "longitude": -46.451238,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-miguel"
+  },
+  {
+    "id": "bairro-vila-pantanal-jardim-helena",
+    "nome": "Vila Pantanal",
+    "zona": "Distrito de Jardim Helena • São Paulo",
+    "latitude": -23.474984,
+    "longitude": -46.417591,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-helena"
+  },
+  {
+    "id": "bairro-vila-parque-guaianases-v-74c3f0ab",
+    "nome": "Vila Parque Guaianases",
+    "zona": "Distrito de Vila Curuçá • São Paulo",
+    "latitude": -23.521042,
+    "longitude": -46.415756,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-curuca"
+  },
+  {
+    "id": "bairro-vila-patrimonial-cidade-ademar",
+    "nome": "Vila Patrimonial",
+    "zona": "Distrito de Cidade Ademar • São Paulo",
+    "latitude": -23.676021,
+    "longitude": -46.637987,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-ademar"
+  },
+  {
+    "id": "bairro-vila-pauliceia-santana",
+    "nome": "Vila Paulicéia",
+    "zona": "Distrito de Santana • São Paulo",
+    "latitude": -23.488269,
+    "longitude": -46.614681,
+    "tipo": "BAIRRO",
+    "distritoId": "santana"
+  },
+  {
+    "id": "bairro-vila-paulista-cidade-tiradentes",
+    "nome": "Vila Paulista",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.577222,
+    "longitude": -46.406401,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-vila-penteado-brasilandia",
+    "nome": "Vila Penteado",
+    "zona": "Distrito de Brasilândia • São Paulo",
+    "latitude": -23.47043,
+    "longitude": -46.687262,
+    "tipo": "BAIRRO",
+    "distritoId": "brasilandia"
+  },
+  {
+    "id": "bairro-vila-pereira-barreto-pirituba",
+    "nome": "Vila Pereira Barreto",
+    "zona": "Distrito de Pirituba • São Paulo",
+    "latitude": -23.489536,
+    "longitude": -46.718555,
+    "tipo": "BAIRRO",
+    "distritoId": "pirituba"
+  },
+  {
+    "id": "bairro-vila-pereira-cerca-pirituba",
+    "nome": "Vila Pereira Cerca",
+    "zona": "Distrito de Pirituba • São Paulo",
+    "latitude": -23.494992,
+    "longitude": -46.712609,
+    "tipo": "BAIRRO",
+    "distritoId": "pirituba"
+  },
+  {
+    "id": "bairro-vila-piratininga-cangaiba",
+    "nome": "Vila Piratininga",
+    "zona": "Distrito de Cangaíba • São Paulo",
+    "latitude": -23.503331,
+    "longitude": -46.537453,
+    "tipo": "BAIRRO",
+    "distritoId": "cangaiba"
+  },
+  {
+    "id": "bairro-vila-pirituba-pirituba",
+    "nome": "Vila Pirituba",
+    "zona": "Distrito de Pirituba • São Paulo",
+    "latitude": -23.482121,
+    "longitude": -46.746264,
+    "tipo": "BAIRRO",
+    "distritoId": "pirituba"
+  },
+  {
+    "id": "bairro-vila-prado-limao",
+    "nome": "VIla Prado",
+    "zona": "Distrito de Limão • São Paulo",
+    "latitude": -23.493709,
+    "longitude": -46.675469,
+    "tipo": "BAIRRO",
+    "distritoId": "limao"
+  },
+  {
+    "id": "bairro-vila-princesa-isabel-guaianases",
+    "nome": "Vila Princesa Isabel",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.547126,
+    "longitude": -46.416781,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro-vila-professora-nina-sto-4950a61c",
+    "nome": "Vila Professora Nina Stocco",
+    "zona": "Distrito de Campo Limpo • São Paulo",
+    "latitude": -23.628363,
+    "longitude": -46.76089,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-limpo"
+  },
+  {
+    "id": "bairro-vila-progresso-sao-miguel",
+    "nome": "Vila Progresso",
+    "zona": "Distrito de São Miguel • São Paulo",
+    "latitude": -23.517511,
+    "longitude": -46.432433,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-miguel"
+  },
+  {
+    "id": "bairro-vila-re-penha",
+    "nome": "Vila Ré",
+    "zona": "Distrito de Penha • São Paulo",
+    "latitude": -23.528375,
+    "longitude": -46.497842,
+    "tipo": "BAIRRO",
+    "distritoId": "penha"
+  },
+  {
+    "id": "bairro-vila-recanto-da-moeda-jabaquara",
+    "nome": "Vila Recanto da Moeda",
+    "zona": "Distrito de Jabaquara • São Paulo",
+    "latitude": -23.674304,
+    "longitude": -46.633079,
+    "tipo": "BAIRRO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "bairro-vila-regina-campo-limpo",
+    "nome": "Vila Regina",
+    "zona": "Distrito de Campo Limpo • São Paulo",
+    "latitude": -23.638035,
+    "longitude": -46.760207,
+    "tipo": "BAIRRO",
+    "distritoId": "campo-limpo"
+  },
+  {
+    "id": "bairro-vila-renato-pirituba",
+    "nome": "Vila Renato",
+    "zona": "Distrito de Pirituba • São Paulo",
+    "latitude": -23.472495,
+    "longitude": -46.719135,
+    "tipo": "BAIRRO",
+    "distritoId": "pirituba"
+  },
+  {
+    "id": "bairro-vila-rio-branco-ponte-rasa",
+    "nome": "Vila Rio Branco",
+    "zona": "Distrito de Ponte Rasa • São Paulo",
+    "latitude": -23.511938,
+    "longitude": -46.494894,
+    "tipo": "BAIRRO",
+    "distritoId": "ponte-rasa"
+  },
+  {
+    "id": "bairro-vila-rio-fartura-guaianases",
+    "nome": "Vila Rio Fartura",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.557441,
+    "longitude": -46.411334,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro-vila-rizieri-sacoma",
+    "nome": "Vila Rizieri",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.634158,
+    "longitude": -46.59171,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-vila-roland-berigan-sao-miguel",
+    "nome": "Vila Roland Berigan",
+    "zona": "Distrito de São Miguel • São Paulo",
+    "latitude": -23.485919,
+    "longitude": -46.440992,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-miguel"
+  },
+  {
+    "id": "bairro-vila-romana-lapa",
+    "nome": "Vila Romana",
+    "zona": "Distrito de Lapa • São Paulo",
+    "latitude": -23.528771,
+    "longitude": -46.703741,
+    "tipo": "BAIRRO",
+    "distritoId": "lapa"
+  },
+  {
+    "id": "bairro-vila-rosa-tremembe",
+    "nome": "Vila Rosa",
+    "zona": "Distrito de Tremembé • São Paulo",
+    "latitude": -23.458926,
+    "longitude": -46.63006,
+    "tipo": "BAIRRO",
+    "distritoId": "tremembe"
+  },
+  {
+    "id": "bairro-vila-rosaria-sao-miguel",
+    "nome": "Vila Rosária",
+    "zona": "Distrito de São Miguel • São Paulo",
+    "latitude": -23.502349,
+    "longitude": -46.434363,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-miguel"
+  },
+  {
+    "id": "bairro-vila-roschel-parelheiros",
+    "nome": "Vila Roschel",
+    "zona": "Distrito de Parelheiros • São Paulo",
+    "latitude": -23.83926,
+    "longitude": -46.733778,
+    "tipo": "BAIRRO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "bairro-vila-roseira-1-guaianases",
+    "nome": "Vila Roseira 1",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.562094,
+    "longitude": -46.393794,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro-vila-roseira-2-guaianases",
+    "nome": "VIla Roseira 2",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.559341,
+    "longitude": -46.392296,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro-vila-rua-itaguara-jabaquara",
+    "nome": "Vila Rua Itaguara",
+    "zona": "Distrito de Jabaquara • São Paulo",
+    "latitude": -23.651264,
+    "longitude": -46.634339,
+    "tipo": "BAIRRO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "bairro-vila-sa-barbosa-bom-retiro",
+    "nome": "Vila Sá Barbosa",
+    "zona": "Distrito de Bom Retiro • São Paulo",
+    "latitude": -23.531022,
+    "longitude": -46.627184,
+    "tipo": "BAIRRO",
+    "distritoId": "bom-retiro"
+  },
+  {
+    "id": "bairro-vila-sabrina-vila-medeiros",
+    "nome": "Vila Sabrina",
+    "zona": "Distrito de Vila Medeiros • São Paulo",
+    "latitude": -23.491202,
+    "longitude": -46.576658,
+    "tipo": "BAIRRO",
+    "distritoId": "vila-medeiros"
+  },
+  {
+    "id": "bairro-vila-safira-jardim-helena",
+    "nome": "Vila Safira",
+    "zona": "Distrito de Jardim Helena • São Paulo",
+    "latitude": -23.475264,
+    "longitude": -46.412683,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-helena"
+  },
+  {
+    "id": "bairro-vila-santa-catarina-jabaquara",
+    "nome": "Vila Santa Catarina",
+    "zona": "Distrito de Jabaquara • São Paulo",
+    "latitude": -23.651678,
+    "longitude": -46.656957,
+    "tipo": "BAIRRO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "bairro-vila-santa-lucia-jardim-angela",
+    "nome": "Vila Santa Lúcia",
+    "zona": "Distrito de Jardim Ângela • São Paulo",
+    "latitude": -23.689107,
+    "longitude": -46.764055,
+    "tipo": "BAIRRO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "bairro-vila-santa-tereza-artur-alvim",
+    "nome": "Vila Santa Tereza",
+    "zona": "Distrito de Artur Alvim • São Paulo",
+    "latitude": -23.538724,
+    "longitude": -46.492711,
+    "tipo": "BAIRRO",
+    "distritoId": "artur-alvim"
+  },
+  {
+    "id": "bairro-vila-santa-tereza-sacoma",
+    "nome": "Vila Santa Tereza",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.647483,
+    "longitude": -46.595248,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-vila-santo-antonio-guaianases",
+    "nome": "Vila Santo Antônio",
+    "zona": "Distrito de Guaianases • São Paulo",
+    "latitude": -23.551555,
+    "longitude": -46.417763,
+    "tipo": "BAIRRO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "bairro-vila-santo-antonio-jose-bonifacio",
+    "nome": "Vila Santo Antônio",
+    "zona": "Distrito de José Bonifácio • São Paulo",
+    "latitude": -23.539494,
+    "longitude": -46.424912,
+    "tipo": "BAIRRO",
+    "distritoId": "jose-bonifacio"
+  },
+  {
+    "id": "bairro-vila-santo-estefano-cursino",
+    "nome": "Vila Santo Estéfano",
+    "zona": "Distrito de Cursino • São Paulo",
+    "latitude": -23.623498,
+    "longitude": -46.624248,
+    "tipo": "BAIRRO",
+    "distritoId": "cursino"
+  },
+  {
+    "id": "bairro-vila-sao-francisco-ponte-rasa",
+    "nome": "Vila São Francisco",
+    "zona": "Distrito de Ponte Rasa • São Paulo",
+    "latitude": -23.518307,
+    "longitude": -46.490914,
+    "tipo": "BAIRRO",
+    "distritoId": "ponte-rasa"
+  },
+  {
+    "id": "bairro-vila-sao-jose-cidade-dutra",
+    "nome": "Vila São José",
+    "zona": "Distrito de Cidade Dutra • São Paulo",
+    "latitude": -23.740506,
+    "longitude": -46.708572,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-dutra"
+  },
+  {
+    "id": "bairro-vila-sao-jose-sao-lucas",
+    "nome": "Vila São José",
+    "zona": "Distrito de São Lucas • São Paulo",
+    "latitude": -23.610638,
+    "longitude": -46.540022,
+    "tipo": "BAIRRO",
+    "distritoId": "sao-lucas"
+  },
+  {
+    "id": "bairro-vila-sao-paulo-cidade-ademar",
+    "nome": "Vila São Paulo",
+    "zona": "Distrito de Cidade Ademar • São Paulo",
+    "latitude": -23.657163,
+    "longitude": -46.670222,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-ademar"
+  },
+  {
+    "id": "bairro-vila-sao-pedro-sacoma",
+    "nome": "Vila São Pedro",
+    "zona": "Distrito de Sacomã • São Paulo",
+    "latitude": -23.652422,
+    "longitude": -46.596674,
+    "tipo": "BAIRRO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "bairro-vila-sebastiao-afonso-ci-b82dc181",
+    "nome": "Vila Sebastião Afonso",
+    "zona": "Distrito de Cidade Ademar • São Paulo",
+    "latitude": -23.677493,
+    "longitude": -46.634029,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-ademar"
+  },
+  {
+    "id": "bairro-vila-simone-itaim-paulista",
+    "nome": "Vila Simone",
+    "zona": "Distrito de Itaim Paulista • São Paulo",
+    "latitude": -23.503469,
+    "longitude": -46.400284,
+    "tipo": "BAIRRO",
+    "distritoId": "itaim-paulista"
+  },
+  {
+    "id": "bairro-vila-souza-jaragua",
+    "nome": "Vila Souza",
+    "zona": "Distrito de Jaraguá • São Paulo",
+    "latitude": -23.434319,
+    "longitude": -46.716521,
+    "tipo": "BAIRRO",
+    "distritoId": "jaragua"
+  },
+  {
+    "id": "bairro-vila-tolstoi-sapopemba",
+    "nome": "Vila Tolstói",
+    "zona": "Distrito de Sapopemba • São Paulo",
+    "latitude": -23.599136,
+    "longitude": -46.524904,
+    "tipo": "BAIRRO",
+    "distritoId": "sapopemba"
+  },
+  {
+    "id": "bairro-vila-vaquejada-cidade-tiradentes",
+    "nome": "Vila Vaquejada",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.575779,
+    "longitude": -46.389626,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-vila-yolanda-cidade-tiradentes",
+    "nome": "Vila Yolanda",
+    "zona": "Distrito de Cidade Tiradentes • São Paulo",
+    "latitude": -23.57951,
+    "longitude": -46.386994,
+    "tipo": "BAIRRO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "bairro-vila-yolanda-lajeado",
+    "nome": "Vila Yolanda",
+    "zona": "Distrito de Lajeado • São Paulo",
+    "latitude": -23.538445,
+    "longitude": -46.402931,
+    "tipo": "BAIRRO",
+    "distritoId": "lajeado"
+  },
+  {
+    "id": "bairro-vila-zatt-pirituba",
+    "nome": "Vila Zatt",
+    "zona": "Distrito de Pirituba • São Paulo",
+    "latitude": -23.47732,
+    "longitude": -46.7157,
+    "tipo": "BAIRRO",
+    "distritoId": "pirituba"
+  },
+  {
+    "id": "barra-funda",
+    "nome": "Barra Funda",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.521195,
+    "longitude": -46.674088,
+    "tipo": "DISTRITO",
+    "distritoId": "barra-funda"
+  },
+  {
+    "id": "bela-vista",
+    "nome": "Bela Vista",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.560856,
+    "longitude": -46.64758,
+    "tipo": "DISTRITO",
+    "distritoId": "bela-vista"
+  },
+  {
+    "id": "belem",
+    "nome": "Belém",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.537603,
+    "longitude": -46.594824,
+    "tipo": "DISTRITO",
+    "distritoId": "belem"
+  },
+  {
+    "id": "bom-retiro",
+    "nome": "Bom Retiro",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.526069,
+    "longitude": -46.636813,
+    "tipo": "DISTRITO",
+    "distritoId": "bom-retiro"
+  },
+  {
+    "id": "bras",
+    "nome": "Brás",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.543747,
+    "longitude": -46.617469,
+    "tipo": "DISTRITO",
+    "distritoId": "bras"
+  },
+  {
+    "id": "brasilandia",
+    "nome": "Brasilândia",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.448594,
+    "longitude": -46.688389,
+    "tipo": "DISTRITO",
+    "distritoId": "brasilandia"
+  },
+  {
+    "id": "butanta",
+    "nome": "Butantã",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.570195,
+    "longitude": -46.726276,
+    "tipo": "DISTRITO",
+    "distritoId": "butanta"
+  },
+  {
+    "id": "cachoeirinha",
+    "nome": "Cachoeirinha",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.454423,
+    "longitude": -46.66209,
+    "tipo": "DISTRITO",
+    "distritoId": "cachoeirinha"
+  },
+  {
+    "id": "cambuci",
+    "nome": "Cambuci",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.564387,
+    "longitude": -46.616951,
+    "tipo": "DISTRITO",
+    "distritoId": "cambuci"
+  },
+  {
+    "id": "campo-belo",
+    "nome": "Campo Belo",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.628081,
+    "longitude": -46.667908,
+    "tipo": "DISTRITO",
+    "distritoId": "campo-belo"
+  },
+  {
+    "id": "campo-grande",
+    "nome": "Campo Grande",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.674626,
+    "longitude": -46.687514,
+    "tipo": "DISTRITO",
+    "distritoId": "campo-grande"
+  },
+  {
+    "id": "campo-limpo",
+    "nome": "Campo Limpo",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.635857,
+    "longitude": -46.763502,
+    "tipo": "DISTRITO",
+    "distritoId": "campo-limpo"
+  },
+  {
+    "id": "cangaiba",
+    "nome": "Cangaíba",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.496963,
+    "longitude": -46.520447,
+    "tipo": "DISTRITO",
+    "distritoId": "cangaiba"
+  },
+  {
+    "id": "capao-redondo",
+    "nome": "Capão Redondo",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.668772,
+    "longitude": -46.780512,
+    "tipo": "DISTRITO",
+    "distritoId": "capao-redondo"
+  },
+  {
+    "id": "carrao",
+    "nome": "Carrão",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.551079,
+    "longitude": -46.538294,
+    "tipo": "DISTRITO",
+    "distritoId": "carrao"
+  },
+  {
+    "id": "casa-verde",
+    "nome": "Casa Verde",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.500989,
+    "longitude": -46.657439,
+    "tipo": "DISTRITO",
+    "distritoId": "casa-verde"
+  },
+  {
+    "id": "cidade-ademar",
+    "nome": "Cidade Ademar",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.673795,
+    "longitude": -46.65681,
+    "tipo": "DISTRITO",
+    "distritoId": "cidade-ademar"
+  },
+  {
+    "id": "cidade-dutra",
+    "nome": "Cidade Dutra",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.725764,
+    "longitude": -46.702399,
+    "tipo": "DISTRITO",
+    "distritoId": "cidade-dutra"
+  },
+  {
+    "id": "cidade-lider",
+    "nome": "Cidade Líder",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.562017,
+    "longitude": -46.4913,
+    "tipo": "DISTRITO",
+    "distritoId": "cidade-lider"
+  },
+  {
+    "id": "cidade-tiradentes",
+    "nome": "Cidade Tiradentes",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.584811,
+    "longitude": -46.400844,
+    "tipo": "DISTRITO",
+    "distritoId": "cidade-tiradentes"
+  },
+  {
+    "id": "consolacao",
+    "nome": "Consolação",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.548693,
+    "longitude": -46.660228,
+    "tipo": "DISTRITO",
+    "distritoId": "consolacao"
+  },
+  {
+    "id": "cursino",
+    "nome": "Cursino",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.631422,
+    "longitude": -46.62072,
+    "tipo": "DISTRITO",
+    "distritoId": "cursino"
+  },
+  {
+    "id": "ermelino-matarazzo",
+    "nome": "Ermelino Matarazzo",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.491247,
+    "longitude": -46.484526,
+    "tipo": "DISTRITO",
+    "distritoId": "ermelino-matarazzo"
+  },
+  {
+    "id": "freguesia-do-o",
+    "nome": "Freguesia do Ó",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.486329,
+    "longitude": -46.697483,
+    "tipo": "DISTRITO",
+    "distritoId": "freguesia-do-o"
+  },
+  {
+    "id": "grajau",
+    "nome": "Grajaú",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.789651,
+    "longitude": -46.668722,
+    "tipo": "DISTRITO",
+    "distritoId": "grajau"
+  },
+  {
+    "id": "guaianases",
+    "nome": "Guaianases",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.556393,
+    "longitude": -46.406586,
+    "tipo": "DISTRITO",
+    "distritoId": "guaianases"
+  },
+  {
+    "id": "iguatemi",
+    "nome": "Iguatemi",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.612768,
+    "longitude": -46.426674,
+    "tipo": "DISTRITO",
+    "distritoId": "iguatemi"
+  },
+  {
+    "id": "ipiranga",
+    "nome": "Ipiranga",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.59181,
+    "longitude": -46.602831,
+    "tipo": "DISTRITO",
+    "distritoId": "ipiranga"
+  },
+  {
+    "id": "itaim-bibi",
+    "nome": "Itaim Bibi",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.602105,
+    "longitude": -46.685359,
+    "tipo": "DISTRITO",
+    "distritoId": "itaim-bibi"
+  },
+  {
+    "id": "itaim-paulista",
+    "nome": "Itaim Paulista",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.503354,
+    "longitude": -46.386321,
+    "tipo": "DISTRITO",
+    "distritoId": "itaim-paulista"
+  },
+  {
+    "id": "itaquera",
+    "nome": "Itaquera",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.534016,
+    "longitude": -46.455935,
+    "tipo": "DISTRITO",
+    "distritoId": "itaquera"
+  },
+  {
+    "id": "jabaquara",
+    "nome": "Jabaquara",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.650552,
+    "longitude": -46.645906,
+    "tipo": "DISTRITO",
+    "distritoId": "jabaquara"
+  },
+  {
+    "id": "jacana",
+    "nome": "Jaçanã",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.460127,
+    "longitude": -46.574902,
+    "tipo": "DISTRITO",
+    "distritoId": "jacana"
+  },
+  {
+    "id": "jaguara",
+    "nome": "Jaguara",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.511033,
+    "longitude": -46.747134,
+    "tipo": "DISTRITO",
+    "distritoId": "jaguara"
+  },
+  {
+    "id": "jaguare",
+    "nome": "Jaguaré",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.54382,
+    "longitude": -46.748709,
+    "tipo": "DISTRITO",
+    "distritoId": "jaguare"
+  },
+  {
+    "id": "jaragua",
+    "nome": "Jaraguá",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.445911,
+    "longitude": -46.740026,
+    "tipo": "DISTRITO",
+    "distritoId": "jaragua"
+  },
+  {
+    "id": "jardim-angela",
+    "nome": "Jardim Ângela",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.716365,
+    "longitude": -46.768719,
+    "tipo": "DISTRITO",
+    "distritoId": "jardim-angela"
+  },
+  {
+    "id": "jardim-helena",
+    "nome": "Jardim Helena",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.483702,
+    "longitude": -46.413087,
+    "tipo": "DISTRITO",
+    "distritoId": "jardim-helena"
+  },
+  {
+    "id": "jardim-paulista",
+    "nome": "Jardim Paulista",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.566514,
+    "longitude": -46.666759,
+    "tipo": "DISTRITO",
+    "distritoId": "jardim-paulista"
+  },
+  {
+    "id": "jardim-sao-luis",
+    "nome": "Jardim São Luís",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.68073,
+    "longitude": -46.7394,
+    "tipo": "DISTRITO",
+    "distritoId": "jardim-sao-luis"
+  },
+  {
+    "id": "jose-bonifacio",
+    "nome": "José Bonifácio",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.56739,
+    "longitude": -46.43266,
+    "tipo": "DISTRITO",
+    "distritoId": "jose-bonifacio"
+  },
+  {
+    "id": "lajeado",
+    "nome": "Lajeado",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.533608,
+    "longitude": -46.408657,
+    "tipo": "DISTRITO",
+    "distritoId": "lajeado"
+  },
+  {
+    "id": "lapa",
+    "nome": "Lapa",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.522635,
+    "longitude": -46.705976,
+    "tipo": "DISTRITO",
+    "distritoId": "lapa"
+  },
+  {
+    "id": "liberdade",
+    "nome": "Liberdade",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.566955,
+    "longitude": -46.631957,
+    "tipo": "DISTRITO",
+    "distritoId": "liberdade"
+  },
+  {
+    "id": "limao",
+    "nome": "Limão",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.497512,
+    "longitude": -46.676036,
+    "tipo": "DISTRITO",
+    "distritoId": "limao"
+  },
+  {
+    "id": "mandaqui",
+    "nome": "Mandaqui",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.459473,
+    "longitude": -46.640855,
+    "tipo": "DISTRITO",
+    "distritoId": "mandaqui"
+  },
+  {
+    "id": "marsilac",
+    "nome": "Marsilac",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.935308,
+    "longitude": -46.707865,
+    "tipo": "DISTRITO",
+    "distritoId": "marsilac"
+  },
+  {
+    "id": "moema",
+    "nome": "Moema",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.596114,
+    "longitude": -46.661366,
+    "tipo": "DISTRITO",
+    "distritoId": "moema"
+  },
+  {
+    "id": "mooca",
+    "nome": "Mooca",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.561346,
+    "longitude": -46.596412,
+    "tipo": "DISTRITO",
+    "distritoId": "mooca"
+  },
+  {
+    "id": "morumbi",
+    "nome": "Morumbi",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.596321,
+    "longitude": -46.708023,
+    "tipo": "DISTRITO",
+    "distritoId": "morumbi"
+  },
+  {
+    "id": "parelheiros",
+    "nome": "Parelheiros",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.829958,
+    "longitude": -46.716628,
+    "tipo": "DISTRITO",
+    "distritoId": "parelheiros"
+  },
+  {
+    "id": "pari",
+    "nome": "Pari",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.527187,
+    "longitude": -46.617512,
+    "tipo": "DISTRITO",
+    "distritoId": "pari"
+  },
+  {
+    "id": "parque-do-carmo",
+    "nome": "Parque do Carmo",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.575952,
+    "longitude": -46.462977,
+    "tipo": "DISTRITO",
+    "distritoId": "parque-do-carmo"
+  },
+  {
+    "id": "pedreira",
+    "nome": "Pedreira",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.706749,
+    "longitude": -46.649817,
+    "tipo": "DISTRITO",
+    "distritoId": "pedreira"
+  },
+  {
+    "id": "penha",
+    "nome": "Penha",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.523124,
+    "longitude": -46.529147,
+    "tipo": "DISTRITO",
+    "distritoId": "penha"
+  },
+  {
+    "id": "perdizes",
+    "nome": "Perdizes",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.538721,
+    "longitude": -46.680933,
+    "tipo": "DISTRITO",
+    "distritoId": "perdizes"
+  },
+  {
+    "id": "perus",
+    "nome": "Perus",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.40792,
+    "longitude": -46.746133,
+    "tipo": "DISTRITO",
+    "distritoId": "perus"
+  },
+  {
+    "id": "pinheiros",
+    "nome": "Pinheiros",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.566474,
+    "longitude": -46.688674,
+    "tipo": "DISTRITO",
+    "distritoId": "pinheiros"
+  },
+  {
+    "id": "pirituba",
+    "nome": "Pirituba",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.480853,
+    "longitude": -46.726279,
+    "tipo": "DISTRITO",
+    "distritoId": "pirituba"
+  },
+  {
+    "id": "ponte-rasa",
+    "nome": "Ponte Rasa",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.515672,
+    "longitude": -46.49373,
+    "tipo": "DISTRITO",
+    "distritoId": "ponte-rasa"
+  },
+  {
+    "id": "raposo-tavares",
+    "nome": "Raposo Tavares",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.592449,
+    "longitude": -46.785612,
+    "tipo": "DISTRITO",
+    "distritoId": "raposo-tavares"
+  },
+  {
+    "id": "republica",
+    "nome": "República",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.544763,
+    "longitude": -46.641051,
+    "tipo": "DISTRITO",
+    "distritoId": "republica"
+  },
+  {
+    "id": "rio-pequeno",
+    "nome": "Rio Pequeno",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.571388,
+    "longitude": -46.758873,
+    "tipo": "DISTRITO",
+    "distritoId": "rio-pequeno"
+  },
+  {
+    "id": "sacoma",
+    "nome": "Sacomã",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.630826,
+    "longitude": -46.598169,
+    "tipo": "DISTRITO",
+    "distritoId": "sacoma"
+  },
+  {
+    "id": "santa-cecilia",
+    "nome": "Santa Cecília",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.531795,
+    "longitude": -46.652877,
+    "tipo": "DISTRITO",
+    "distritoId": "santa-cecilia"
+  },
+  {
+    "id": "santana",
+    "nome": "Santana",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.500011,
+    "longitude": -46.630375,
+    "tipo": "DISTRITO",
+    "distritoId": "santana"
+  },
+  {
+    "id": "santo-amaro",
+    "nome": "Santo Amaro",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.642373,
+    "longitude": -46.701196,
+    "tipo": "DISTRITO",
+    "distritoId": "santo-amaro"
+  },
+  {
+    "id": "sao-domingos",
+    "nome": "São Domingos",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.493367,
+    "longitude": -46.747612,
+    "tipo": "DISTRITO",
+    "distritoId": "sao-domingos"
+  },
+  {
+    "id": "sao-lucas",
+    "nome": "São Lucas",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.594681,
+    "longitude": -46.543587,
+    "tipo": "DISTRITO",
+    "distritoId": "sao-lucas"
+  },
+  {
+    "id": "sao-mateus",
+    "nome": "São Mateus",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.600043,
+    "longitude": -46.481239,
+    "tipo": "DISTRITO",
+    "distritoId": "sao-mateus"
+  },
+  {
+    "id": "sao-miguel",
+    "nome": "São Miguel",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.501069,
+    "longitude": -46.440804,
+    "tipo": "DISTRITO",
+    "distritoId": "sao-miguel"
+  },
+  {
+    "id": "sao-rafael",
+    "nome": "São Rafael",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.628212,
+    "longitude": -46.45395,
+    "tipo": "DISTRITO",
+    "distritoId": "sao-rafael"
+  },
+  {
+    "id": "sapopemba",
+    "nome": "Sapopemba",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.605564,
+    "longitude": -46.509544,
+    "tipo": "DISTRITO",
+    "distritoId": "sapopemba"
+  },
+  {
+    "id": "saude",
+    "nome": "Saúde",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.614616,
+    "longitude": -46.641078,
+    "tipo": "DISTRITO",
+    "distritoId": "saude"
+  },
+  {
+    "id": "se",
+    "nome": "Sé",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.547713,
+    "longitude": -46.631448,
+    "tipo": "DISTRITO",
+    "distritoId": "se"
+  },
+  {
+    "id": "socorro",
+    "nome": "Socorro",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.685281,
+    "longitude": -46.713717,
+    "tipo": "DISTRITO",
+    "distritoId": "socorro"
+  },
+  {
+    "id": "tatuape",
+    "nome": "Tatuapé",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.538681,
+    "longitude": -46.567451,
+    "tipo": "DISTRITO",
+    "distritoId": "tatuape"
+  },
+  {
+    "id": "tremembe",
+    "nome": "Tremembé",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.417157,
+    "longitude": -46.589496,
+    "tipo": "DISTRITO",
+    "distritoId": "tremembe"
+  },
+  {
+    "id": "tucuruvi",
+    "nome": "Tucuruvi",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.475702,
+    "longitude": -46.606044,
+    "tipo": "DISTRITO",
+    "distritoId": "tucuruvi"
+  },
+  {
+    "id": "vila-andrade",
+    "nome": "Vila Andrade",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.62623,
+    "longitude": -46.728279,
+    "tipo": "DISTRITO",
+    "distritoId": "vila-andrade"
+  },
+  {
+    "id": "vila-curuca",
+    "nome": "Vila Curuçá",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.509997,
+    "longitude": -46.415656,
+    "tipo": "DISTRITO",
+    "distritoId": "vila-curuca"
+  },
+  {
+    "id": "vila-formosa",
+    "nome": "Vila Formosa",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.567859,
+    "longitude": -46.545991,
+    "tipo": "DISTRITO",
+    "distritoId": "vila-formosa"
+  },
+  {
+    "id": "vila-guilherme",
+    "nome": "Vila Guilherme",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.509178,
+    "longitude": -46.605765,
+    "tipo": "DISTRITO",
+    "distritoId": "vila-guilherme"
+  },
+  {
+    "id": "vila-jacui",
+    "nome": "Vila Jacuí",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.502623,
+    "longitude": -46.461563,
+    "tipo": "DISTRITO",
+    "distritoId": "vila-jacui"
+  },
+  {
+    "id": "vila-leopoldina",
+    "nome": "Vila Leopoldina",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.529267,
+    "longitude": -46.734374,
+    "tipo": "DISTRITO",
+    "distritoId": "vila-leopoldina"
+  },
+  {
+    "id": "vila-maria",
+    "nome": "Vila Maria",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.513035,
+    "longitude": -46.577783,
+    "tipo": "DISTRITO",
+    "distritoId": "vila-maria"
+  },
+  {
+    "id": "vila-mariana",
+    "nome": "Vila Mariana",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.586503,
+    "longitude": -46.635799,
+    "tipo": "DISTRITO",
+    "distritoId": "vila-mariana"
+  },
+  {
+    "id": "vila-matilde",
+    "nome": "Vila Matilde",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.53936,
+    "longitude": -46.517876,
+    "tipo": "DISTRITO",
+    "distritoId": "vila-matilde"
+  },
+  {
+    "id": "vila-medeiros",
+    "nome": "Vila Medeiros",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.488738,
+    "longitude": -46.577619,
+    "tipo": "DISTRITO",
+    "distritoId": "vila-medeiros"
+  },
+  {
+    "id": "vila-prudente",
+    "nome": "Vila Prudente",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.592553,
+    "longitude": -46.572784,
+    "tipo": "DISTRITO",
+    "distritoId": "vila-prudente"
+  },
+  {
+    "id": "vila-sonia",
+    "nome": "Vila Sônia",
+    "zona": "Distrito • São Paulo",
+    "latitude": -23.599436,
+    "longitude": -46.73923,
+    "tipo": "DISTRITO",
+    "distritoId": "vila-sonia"
+  }
+]

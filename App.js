@@ -130,7 +130,7 @@
     const form = $('#avaliacao-form'), filter = $('#filtro-avaliacoes');
     const regionSelect = form.elements.regiaoId;
     const search = $('#busca-bairro-avaliacao');
-    const labelRegion = r => r.nome;
+    const labelRegion = r => `${r.nome} — ${r.tipo === 'BAIRRO' ? r.zona : 'distrito'}`;
     const normalize = text => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
     function options() {
       const previous = regionSelect.value;

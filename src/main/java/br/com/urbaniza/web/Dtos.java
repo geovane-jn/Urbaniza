@@ -36,5 +36,5 @@ public final class Dtos {
             (a.seguranca + a.mobilidade + a.iluminacao) / 3.0, a.comentario, a.criadoEm, a.atualizadoEm); }
     }
     public record Notas(Double geral, Double seguranca, Double mobilidade, Double iluminacao) {}
-    public record RegiaoView(String id, String nome, String zona, double latitude, double longitude, long totalAvaliacoes, Notas notas) {}
+    public record RegiaoView(String id, String nome, String zona, double latitude, double longitude, long totalAvaliacoes, Notas notas, Regiao.Tipo tipo, String distritoId) {}
 }

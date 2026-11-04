@@ -29,6 +29,8 @@ class UrbanizaIntegrationTest {
     @Autowired AvaliacaoRepository reviews;
     @Autowired RecuperacaoRepository resets;
     @Autowired JwtEncoder encoder;
+    @Autowired RegiaoRepository regions;
+    @Autowired br.com.urbaniza.config.DadosIniciais seed;
     @BeforeEach void clear() { reviews.deleteAll(); resets.deleteAll(); users.deleteAll(); }
     String body(Object value) throws Exception { return json.writeValueAsString(value); }
     JsonNode read(MvcResult result) throws Exception { return json.readTree(result.getResponse().getContentAsString()); }
@@ -79,16 +81,23 @@ class UrbanizaIntegrationTest {
         mvc.perform(auth(get("/api/usuarios/ana_maria"),ana)).andExpect(status().isOk());
         mvc.perform(auth(put("/api/usuarios/me"),ana).contentType(MediaType.APPLICATION_JSON).content(body(Map.of("nome","Ana","username","bia","localidade","SP")))).andExpect(status().isConflict());
     }
+    JsonNode region(String token, String id) throws Exception {
+        var list=read(mvc.perform(auth(get("/api/regioes"),token)).andExpect(status().isOk()).andReturn());
+        for (var item:list) if (item.path("id").asText().equals(id)) return item;
+        throw new AssertionError("Região ausente: "+id);
+    }
     @Test void crudAvaliacoesEMediasReais() throws Exception {
         String ana=token("ana"),bia=token("bia");
-        mvc.perform(auth(get("/api/regioes?busca=Pinheiros"),ana)).andExpect(jsonPath("$[0].totalAvaliacoes").value(0)).andExpect(jsonPath("$[0].notas.geral").isEmpty());
+        assertThat(region(ana,"pinheiros").path("totalAvaliacoes").asInt()).isZero();
+        assertThat(region(ana,"pinheiros").path("notas").path("geral").isNull()).isTrue();
         var a=create(ana,"pinheiros",5); create(bia,"pinheiros",3);
-        mvc.perform(auth(get("/api/regioes?busca=Pinheiros"),ana)).andExpect(jsonPath("$[0].totalAvaliacoes").value(2)).andExpect(jsonPath("$[0].notas.geral").value(4.0));
+        assertThat(region(ana,"pinheiros").path("totalAvaliacoes").asInt()).isEqualTo(2);
+        assertThat(region(ana,"pinheiros").path("notas").path("geral").asDouble()).isEqualTo(4.0);
         mvc.perform(auth(put("/api/avaliacoes/"+a.path("id").asLong()),ana).contentType(MediaType.APPLICATION_JSON).content(body(review("pinheiros",1)))).andExpect(status().isOk());
-        mvc.perform(auth(get("/api/regioes?busca=Pinheiros"),ana)).andExpect(jsonPath("$[0].notas.geral").value(2.0));
+        assertThat(region(ana,"pinheiros").path("notas").path("geral").asDouble()).isEqualTo(2.0);
         mvc.perform(auth(get("/api/avaliacoes?minhas=true"),ana)).andExpect(jsonPath("$.length()").value(1));
         mvc.perform(auth(delete("/api/avaliacoes/"+a.path("id").asLong()),ana)).andExpect(status().isNoContent());
-        mvc.perform(auth(get("/api/regioes?busca=Pinheiros"),ana)).andExpect(jsonPath("$[0].notas.geral").value(3.0));
+        assertThat(region(ana,"pinheiros").path("notas").path("geral").asDouble()).isEqualTo(3.0);
     }
     @Test void avaliacoesOwnershipValidacaoDuplicidadeERegiaoInexistente() throws Exception {
         String ana=token("ana"),bia=token("bia"); var review=create(ana,"se",4); long id=review.path("id").asLong();
@@ -153,7 +162,24 @@ class UrbanizaIntegrationTest {
     @Test void buscaDeRegiaoIgnoraAcentos() throws Exception {
         String token=token("ana");
         mvc.perform(auth(get("/api/regioes?busca=saude"),token)).andExpect(status().isOk())
-            .andExpect(jsonPath("$.length()").value(1)).andExpect(jsonPath("$[0].id").value("saude"));
+            .andExpect(jsonPath("$[?(@.id == 'saude')].nome").value(org.hamcrest.Matchers.contains("Saúde")));
+    }
+    @Test void bairrosLocaisTemDistritoEAvaliacaoPropriaComImportacaoIdempotente() throws Exception {
+        assertThat(regions.count()).isEqualTo(613);
+        assertThat(regions.findAll().stream().filter(r -> r.tipo==br.com.urbaniza.model.Regiao.Tipo.BAIRRO).count()).isEqualTo(517);
+        String ana=token("ana");
+        String bairro="bairro-chacara-santo-antonio-santo-amaro";
+        mvc.perform(auth(get("/api/regioes?busca=chacara santo antonio"),ana)).andExpect(status().isOk())
+            .andExpect(jsonPath("$.length()").value(1))
+            .andExpect(jsonPath("$[0].id").value(bairro))
+            .andExpect(jsonPath("$[0].nome").value("Chácara Santo Antônio"))
+            .andExpect(jsonPath("$[0].tipo").value("BAIRRO"))
+            .andExpect(jsonPath("$[0].distritoId").value("santo-amaro"));
+        create(ana,bairro,5);
+        assertThat(region(ana,bairro).path("notas").path("geral").asDouble()).isEqualTo(5.0);
+        assertThat(region(ana,"santo-amaro").path("totalAvaliacoes").asInt()).isZero();
+        seed.run(); assertThat(regions.count()).isEqualTo(613); assertThat(reviews.count()).isEqualTo(1);
+        assertThat(region(ana,bairro).path("notas").path("geral").asDouble()).isEqualTo(5.0);
     }
     @Test void paginasRecursosEEntradaServidos() throws Exception {
         mvc.perform(get("/")).andExpect(status().is3xxRedirection()).andExpect(redirectedUrl("/Index.html"));

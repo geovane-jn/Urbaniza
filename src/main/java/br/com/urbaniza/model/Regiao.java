@@ -11,6 +11,11 @@ public class Regiao {
     public String nome;
     @Column(nullable = false, length = 100)
     public String zona;
+    @Enumerated(EnumType.STRING) @Column(length = 10)
+    public Tipo tipo = Tipo.DISTRITO;
+    @Column(length = 40)
+    public String distritoId;
+    public enum Tipo { DISTRITO, BAIRRO }
     public double latitude;
     public double longitude;
     public Regiao() {}
