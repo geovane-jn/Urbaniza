@@ -1,6 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Meu perfil | Urbaniza</title><link rel="stylesheet" href="Style_perfil.css"><link rel="stylesheet" href="App.css"><script src="App.js" defer></script></head>
-<body><header><img src="assets/Logo.svg" alt="Urbaniza" class="logo"></header><main class="container"><h1>Meu perfil</h1><p id="status" role="status" aria-live="polite"></p>
-<section class="painel"><h2 id="perfil-nome">Carregando…</h2><p id="perfil-email"></p><form id="perfil-form"><label>Nome<input name="nome" maxlength="100" autocomplete="name" required></label><label>Username<input name="username" pattern="[a-z0-9_]{3,30}" maxlength="30" required></label><label>Localidade<input name="localidade" maxlength="100" required></label><button type="submit" class="primario">Salvar perfil</button></form></section>
-<section class="suporte"><h2>Minha conta</h2><a href="admin.html" id="admin-link" class="botao" hidden>Administrar usuários</a><button type="button" id="sair" class="btn btn-sair">Sair da conta</button><button type="button" id="abrir-exclusao" class="btn btn-excluir">Excluir conta</button></section>
-<dialog id="modal-excluir" class="modal"><h2>Excluir conta?</h2><p>Suas avaliações e seus dados serão apagados. Esta ação não pode ser desfeita.</p><form id="excluir-conta-form"><label>Confirme sua senha<input type="password" name="senha" autocomplete="current-password" maxlength="72" required></label><div class="modal-acoes"><button type="button" id="cancelar-exclusao" class="btn btn-cancelar">Cancelar</button><button type="submit" class="btn btn-excluir">Sim, excluir</button></div></form></dialog></main><footer class="rodape-fixo"><nav class="menu-inferior" aria-label="Navegação principal"><a href="inicio.html" class="item-menu " ><img src="assets/inicio.svg" alt=""><span>Início</span></a><a href="mapa.html" class="item-menu " ><img src="assets/mapa.svg" alt=""><span>Mapa</span></a><a href="avaliacoes.html" class="item-menu " ><img src="assets/avaliacoes.svg" alt=""><span>Avaliações</span></a><a href="perfil.html" class="item-menu ativo" aria-current=page><img src="assets/perfil.svg" alt=""><span>Perfil</span></a></nav></footer></body></html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Urbaniza</title>
+  <link rel="stylesheet" href="App.css">
+  <link rel="stylesheet" href="Style_perfil.css">
+  <script src="App.js" defer></script>
+</head>
+<body>
+  <div class="app">
+
+    <header class="topo">
+      <img src="./assets/Logo.svg" alt="Urbaniza – São Paulo melhor começa com você!" class="logo">
+    </header>
+
+    <main class="conteudo">
+      <a href="#editar-perfil" id="abrir-edicao" class="card-usuario" aria-label="Editar meu perfil">
+        <span class="avatar" aria-hidden="true">
+          <svg viewBox="0 0 64 64">
+            <circle cx="32" cy="24" r="11" fill="#8a97ad"/>
+            <path d="M10 62c0-13 9-20 22-20s22 7 22 20z" fill="#8a97ad"/>
+          </svg>
+        </span>
+
+        <span class="dados">
+          <strong class="nome" id="perfil-nome">Carregando…</strong>
+          <span class="email" id="perfil-email"></span>
+          <span class="local">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <span id="perfil-localidade"></span>
+          </span>
+        </span>
+
+        <svg class="seta" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+      </a>
+
+      <section class="suporte" aria-labelledby="titulo-suporte">
+        <h2 id="titulo-suporte">Suporte</h2>
+        <a href="admin.html" id="admin-link" class="btn btn-cancelar" hidden>Administrar usuários</a>
+        <button type="button" id="sair" class="btn btn-sair">Sair da conta</button>
+        <button type="button" id="abrir-exclusao" class="btn btn-excluir">Excluir conta</button>
+      </section>
+      <p id="status" role="status" aria-live="polite"></p>
+    </main>
+
+    <dialog id="modal-excluir" class="modal" aria-labelledby="modal-titulo">
+        <h2 id="modal-titulo">Excluir conta?</h2>
+        <p>Essa ação não pode ser desfeita. Suas avaliações e dados serão apagados.</p>
+        <form id="excluir-conta-form">
+          <label>Confirme sua senha<input type="password" name="senha" autocomplete="current-password" maxlength="72" required></label>
+          <div class="modal-acoes">
+            <button type="button" id="cancelar-exclusao" class="btn btn-cancelar">Cancelar</button>
+            <button type="submit" class="btn btn-excluir">Sim, excluir</button>
+          </div>
+        </form>
+    </dialog>
+    <dialog id="editar-perfil" class="modal" aria-labelledby="editar-titulo">
+      <h2 id="editar-titulo">Editar perfil</h2>
+      <form id="perfil-form">
+        <label>Nome completo<input name="nome" maxlength="100" autocomplete="name" required></label>
+        <label>Nome de usuário<input name="username" pattern="[a-z0-9_]{3,30}" maxlength="30" required></label>
+        <label>Localidade<input name="localidade" maxlength="100" required></label>
+        <p id="editar-status" role="status" aria-live="polite" class="mensagem"></p>
+        <div class="modal-acoes"><button type="button" id="cancelar-edicao-perfil" class="btn btn-cancelar">Cancelar</button><button type="submit" class="btn btn-cancelar">Salvar perfil</button></div>
+      </form>
+    </dialog>
+
+  </div>
+
+  <footer class="rodape-fixo">
+    <nav class="menu-inferior" aria-label="Navegação principal">
+        <a href="inicio.html" class="item-menu-ativo">
+            <img src="./assets/inicio-desativado.svg" alt="Inicio" class="icone-menu">
+            <span>Inicio</span>
+        </a>
+        <a href="mapa.html" class="item-menu-ativo">
+            <img src="./assets/mapa.svg" alt="Mapa" class="icone-menu">
+            <span>Mapa</span>
+        </a>
+        <a href="avaliacoes.html" class="item-menu-ativo">
+            <img src="./assets/avaliacoes.svg" alt="Avaliações" class="icone-menu">
+            <span>Avaliações</span>
+        </a>
+        <a href="perfil.html" class="item-menu ativo">
+            <img src="./assets/perfil-ativo.svg" alt="Perfil" class="icone-menu">
+            <span>Perfil</span>
+        </a>
+    </nav>
+</footer>
+
+</body>
+</html>

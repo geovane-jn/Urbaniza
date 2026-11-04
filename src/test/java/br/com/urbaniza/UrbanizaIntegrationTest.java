@@ -150,6 +150,11 @@ class UrbanizaIntegrationTest {
     @Test void emailDesconhecidoNaoEnviaCodigo() throws Exception {
         mvc.perform(post("/api/auth/recuperar").contentType(MediaType.APPLICATION_JSON).content("{\"email\":\"ausente@test.com\"}")).andExpect(status().isOk()).andExpect(jsonPath("$.codigoDesenvolvimento").doesNotExist());
     }
+    @Test void buscaDeRegiaoIgnoraAcentos() throws Exception {
+        String token=token("ana");
+        mvc.perform(auth(get("/api/regioes?busca=saude"),token)).andExpect(status().isOk())
+            .andExpect(jsonPath("$.length()").value(1)).andExpect(jsonPath("$[0].id").value("saude"));
+    }
     @Test void paginasRecursosEEntradaServidos() throws Exception {
         mvc.perform(get("/")).andExpect(status().is3xxRedirection()).andExpect(redirectedUrl("/Index.html"));
         for(String p:new String[]{"Index.html","Cadastro.html","inicio.html","perfil.html","mapa.html","avaliacoes.html","NovaSenha.html","admin.html","App.js","assets/leaflet/leaflet.js","assets/distritos-sp.geojson"}) mvc.perform(get("/"+p)).andExpect(status().isOk());

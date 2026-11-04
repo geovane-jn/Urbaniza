@@ -41,10 +41,14 @@ public class AvaliacaoService {
         a.regiao=regions.findById(data.regiaoId()).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Região não encontrada"));
         a.seguranca=data.seguranca(); a.mobilidade=data.mobilidade(); a.iluminacao=data.iluminacao(); a.comentario=data.comentario().trim();
     }
+    private static String normalizar(String value) {
+        return java.text.Normalizer.normalize(value, java.text.Normalizer.Form.NFD)
+            .replaceAll("\\p{M}+", "").toLowerCase(Locale.ROOT);
+    }
     @Transactional(readOnly = true)
     public List<RegiaoView> regioes(String busca) {
         var grouped=reviews.findAll().stream().collect(Collectors.groupingBy(a -> a.regiao.getId()));
-        return regions.findAll().stream().filter(r -> busca==null || r.nome.toLowerCase(Locale.ROOT).contains(busca.toLowerCase(Locale.ROOT)))
+        return regions.findAll().stream().filter(r -> busca==null || normalizar(r.nome).contains(normalizar(busca)))
             .sorted(Comparator.comparing(r -> r.nome)).map(r -> {
                 var values=grouped.getOrDefault(r.id,List.of());
                 Double s=null,m=null,i=null,g=null;

@@ -102,9 +102,19 @@
   }
   async function profile(user) {
     const form = $('#perfil-form');
-    const fill = u => { $('#perfil-nome').textContent = u.nome; $('#perfil-email').textContent = u.email; ['nome', 'username', 'localidade'].forEach(key => form.elements[key].value = u[key]); };
+    const editDialog = $('#editar-perfil');
+    const fill = u => {
+      $('#perfil-nome').textContent = u.nome; $('#perfil-email').textContent = u.email;
+      $('#perfil-localidade').textContent = u.localidade;
+      ['nome', 'username', 'localidade'].forEach(key => form.elements[key].value = u[key]);
+    };
     fill(user); $('#admin-link').hidden = user.papel !== 'ADMIN';
-    submit(form, async data => { fill(await api('/usuarios/me', { method: 'PUT', body: data })); message('Perfil atualizado.'); });
+    $('#abrir-edicao').addEventListener('click', event => { event.preventDefault(); message('', false, $('#editar-status')); editDialog.showModal(); });
+    $('#cancelar-edicao-perfil').addEventListener('click', () => { fill(user); editDialog.close(); });
+    submit(form, async data => {
+      try { user = await api('/usuarios/me', { method: 'PUT', body: data }); fill(user); editDialog.close(); message('Perfil atualizado.'); }
+      catch (error) { message(error.message, true, $('#editar-status')); }
+    });
     action($('#sair'), async () => { await api('/auth/logout', { method: 'POST' }); sessionStorage.removeItem('urbaniza.token'); location.assign('Index.html'); });
     const dialog = $('#modal-excluir'); $('#abrir-exclusao').addEventListener('click', () => dialog.showModal());
     $('#cancelar-exclusao').addEventListener('click', () => dialog.close());
@@ -119,11 +129,25 @@
     const regions = await api('/regioes');
     const form = $('#avaliacao-form'), filter = $('#filtro-avaliacoes');
     const regionSelect = form.elements.regiaoId;
-    for (const r of regions) { regionSelect.append(new Option(r.nome, r.id)); filter.elements.regiaoId.append(new Option(r.nome, r.id)); }
+    const search = $('#busca-bairro-avaliacao');
+    const labelRegion = r => r.nome;
+    const normalize = text => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    function options() {
+      const previous = regionSelect.value;
+      const term = normalize(search.value.trim());
+      const matches = regions.filter(r => normalize(r.nome).includes(term));
+      regionSelect.replaceChildren(new Option('Selecione o bairro', ''));
+      matches.forEach(r => regionSelect.append(new Option(labelRegion(r), r.id)));
+      if (matches.some(r => r.id === previous)) regionSelect.value = previous;
+      else if (matches.length === 1) regionSelect.value = matches[0].id;
+      $('#resultado-busca-bairro').textContent = matches.length ? `${matches.length} bairro(s)/distrito(s) encontrado(s).` : 'Nenhum bairro encontrado. Tente outro nome.';
+    }
+    options(); search.addEventListener('input', options);
+    for (const r of regions) filter.elements.regiaoId.append(new Option(labelRegion(r), r.id));
     const initial = new URLSearchParams(location.search).get('regiao');
     if (regions.some(r => r.id === initial)) { regionSelect.value = initial; filter.elements.regiaoId.value = initial; }
     let editing = null, entries = [];
-    function reset() { editing = null; form.reset(); regionSelect.disabled = false; $('#cancelar-edicao').hidden = true; $('#form-titulo').textContent = 'Fazer avaliação'; $('button[type="submit"]', form).textContent = 'Publicar avaliação'; }
+    function reset() { editing = null; form.reset(); search.disabled = false; options(); regionSelect.disabled = false; $('#cancelar-edicao').hidden = true; $('#form-titulo').textContent = 'Fazer avaliação'; $('button[type="submit"]', form).textContent = 'Publicar avaliação'; }
     $('#cancelar-edicao').addEventListener('click', reset);
     async function load() {
       const query = new URLSearchParams({ minhas: String(filter.elements.minhas.checked) });
@@ -135,6 +159,7 @@
         if (review.usuarioId === user.id || user.papel === 'ADMIN') {
           const buttons = el('div', null, 'acoes'), edit = el('button', 'Editar'), remove = el('button', 'Excluir', 'perigo'); edit.type = remove.type = 'button';
           edit.addEventListener('click', () => {
+            search.value = ''; options(); search.disabled = true;
             editing = review.id; ['regiaoId', 'seguranca', 'mobilidade', 'iluminacao', 'comentario'].forEach(key => form.elements[key].value = review[key]);
             regionSelect.disabled = true; $('#cancelar-edicao').hidden = false; $('#form-titulo').textContent = 'Editar avaliação'; $('button[type="submit"]', form).textContent = 'Salvar alterações'; form.scrollIntoView({ behavior: 'smooth', block: 'center' });
           });

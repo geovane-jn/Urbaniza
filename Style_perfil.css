@@ -337,3 +337,5 @@ button:focus-visible {
         font-size: 1rem;
     }
 }
+.app { width: 100%; }
+#status:empty, #editar-status:empty { display: none; }
