@@ -1,0 +1,36 @@
+[hidden] { display: none !important; }
+label { display: flex; flex-direction: column; gap: 6px; text-align: left; color: #0f2b48; font-size: .92rem; font-weight: 600; }
+form { display: flex; flex-direction: column; gap: 14px; }
+input, select, textarea { width: 100%; min-width: 0; padding: 12px; border: 1px solid #cdd5df; border-radius: 12px; background: #fff; color: #0f2b48; font: inherit; }
+textarea { resize: vertical; }
+button, .botao { padding: 11px 16px; border: 1px solid #cdd5df; border-radius: 12px; background: white; color: #0f2b48; font: inherit; font-weight: 600; cursor: pointer; text-decoration: none; text-align: center; }
+button:disabled { opacity: .6; cursor: wait; }
+.primario, .botao { background: #068a47; color: #fff; border-color: #068a47; }
+.perigo { color: #b42318; border-color: #fda29b; }
+.painel { background: white; border-radius: 18px; padding: 22px; margin: 18px 0; box-shadow: 0 6px 18px #0f2b480b; }
+h1 { margin: 12px 0; } h2 { margin-bottom: 14px; font-size: 1.25rem; }
+p { line-height: 1.5; } section { margin-bottom: 22px; }
+#status, .mensagem { margin: 12px 0; white-space: pre-line; overflow-wrap: anywhere; }
+.mensagem:not(:empty), #status:not(:empty) { padding: 12px; border-radius: 10px; background: #eaf4f0; color: #135b3c; }
+.erro, .mensagem.erro:not(:empty), #status.erro:not(:empty) { background: #fff0ee; color: #b42318; }
+.acoes { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.lista { display: grid; gap: 12px; margin: 16px 0; }
+.lista article { padding: 18px; border-radius: 16px; background: white; border: 1px solid #e4e7ec; overflow-wrap: anywhere; }
+.lista article p { margin: 6px 0; white-space: pre-wrap; }
+.lista article h3 { margin-bottom: 8px; }
+.notas-form { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; }
+.filtros { margin-top: 14px; }
+.checkbox { flex-direction: row; align-items: center; } .checkbox input { width: auto; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid #3a75d0; outline-offset: 3px; }
+.status-sem-notas { color: #64748b; background: #eef1f5; }
+.status-ruim { color: #b42318; background: #fff0ee; }
+#lista-regioes button { text-align: left; display: block; width: 100%; }
+.card-regiao { text-decoration: none; color: inherit; }
+.card-regiao .corpo-regiao { padding: 20px; }
+.aviso-local { padding: 12px; background: #fff4ce; color: #644c00; border-radius: 12px; margin: 12px 0; }
+.modal[open] { display: block; }
+.modal form { margin-top: 16px; }
+.leaflet-control-attribution { font-size: 10px; }
+@media(max-width: 480px) { .notas-form { grid-template-columns: 1fr; } .painel { padding: 16px; } .filtros-categorias { flex-wrap: wrap; } }
+.botao { display: inline-flex; align-items: center; justify-content: center; margin-top: 10px; }
+.barra-busca { align-items: stretch; }

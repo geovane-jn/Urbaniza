@@ -1,0 +1,6 @@
+/target/
+/.urbaniza/
+/.env
+*.log
+/.idea/
+*.iml

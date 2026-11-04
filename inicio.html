@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Urbaniza</title>
     <link rel="stylesheet" href="Style_inicio.css">
+    <link rel="stylesheet" href="App.css">
+    <script src="App.js" defer></script>
 </head>
 <body>
     <header>
@@ -35,56 +37,8 @@
                 <h2>Regiões em Destaque</h2>
                 <a href="mapa.html" class="link-ver-todas">Ver Todas &rsaquo;</a>
             </div>
-            <div class="grid-regioes">
-                <article class="card-regiao">
-                    <div class="capa-regiao fundo-verde-claro" aria-hidden="true">
-                        <div class="mini-grafico">
-                            <span class="barra azul" style="height: 38%"></span>
-                            <span class="barra verde" style="height: 55%"></span>
-                            <span class="barra azul" style="height: 72%"></span>
-                            <span class="barra verde" style="height: 40%"></span>
-                            <span class="barra azul" style="height: 60%"></span>
-                        </div>
-                    </div>
-                    <div class="corpo-regiao">
-                        <h3>Pinheiros</h3>
-                        <p class="subtitulo-regiao">Zona Oeste &bull; São Paulo</p>
-                        <div class="rodape-regiao">
-                            <div class="nota">
-                                <span class="estrela"> &#9733;</span>
-                                <strong>4,4</strong>
-                            </div>
-                            <span class="tag-status status-boa">Boa
-                                <span class="ponto"></span>
-                            </span>
-                        </div>
-                    </div>
-                </article>
-                <article class="card-regiao">
-                    <div class="capa-regiao fundo-verde-claro" aria-hidden="true">
-                        <div class="mini-grafico">
-                            <span class="barra azul" style="height: 38%"></span>
-                            <span class="barra verde" style="height: 55%"></span>
-                            <span class="barra azul" style="height: 72%"></span>
-                            <span class="barra verde" style="height: 40%"></span>
-                            <span class="barra azul" style="height: 60%"></span>
-                        </div>
-                    </div>
-                    <div class="corpo-regiao">
-                        <h3>Vila Mariana</h3>
-                        <p class="subtitulo-regiao">Zona Sul &bull; São Paulo</p>
-                        <div class="rodape-regiao">
-                            <div class="nota">
-                                <span class="estrela"> &#9733;</span>
-                                <strong>4,4</strong>
-                            </div>
-                            <span class="tag-status status-boa">Média
-                                <span class="ponto"></span>
-                            </span>
-                        </div>
-                    </div>
-                </article>
-            </div>
+            <p id="status" role="status" aria-live="polite"></p>
+            <div class="grid-regioes" id="regioes-destaque"></div>
         </section>
     </main>
     <footer class="rodape-fixo">

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criar conta | Urbaniza</title>
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="App.css">
+    <script src="App.js" defer></script>
 </head>
 
 <body>
@@ -19,14 +21,16 @@
             Ajude a construir uma São Paulo melhor para todos.
         </p>
         <form>
+            <label>Nome completo<input name="nome" autocomplete="name" maxlength="100" required></label>
+            <label>Username<input name="username" autocomplete="username" pattern="[a-z0-9_]{3,30}" minlength="3" maxlength="30" title="3 a 30 letras minúsculas, números ou _" required></label>
             <div class="campo">
                 <img src="./assets/Email.svg" alt="" class="icone">
-                <input type="email" name="email" placeholder="E-mail" aria-label="E-mail" autocomplete="email" required>
+                <input type="email" name="email" placeholder="E-mail" aria-label="E-mail" autocomplete="email" maxlength="254" required>
             </div>
 
             <div class="campo">
                 <img src="./assets/Cadeado.svg" alt="" class="icone">
-                <input type="password" name="senha" placeholder="Senha" aria-label="Senha" autocomplete="new-password"
+                <input type="password" name="senha" placeholder="Senha" aria-label="Senha" autocomplete="new-password" minlength="8" maxlength="72"
                     required>
 
                 <button type="button" class="mostrar-senha" aria-label="Mostrar senha">
@@ -37,7 +41,7 @@
             <div class="campo">
                 <img src="./assets/Cadeado.svg" alt="" class="icone">
                 <input type="password" name="confirmarSenha" placeholder="Confirmar senha" aria-label="Confirmar senha"
-                    autocomplete="new-password" required>
+                    autocomplete="new-password" minlength="8" maxlength="72" required>
 
                 <button type="button" class="mostrar-senha" aria-label="Mostrar confirmação de senha">
                     <img src="./assets/Olho.svg" alt="" class="icone">
